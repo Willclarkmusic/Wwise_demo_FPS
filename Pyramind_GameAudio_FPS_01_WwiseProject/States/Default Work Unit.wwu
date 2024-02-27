@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20861688-9CDC-44A6-8A65-D75EFC21F9CF}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{20861688-9CDC-44A6-8A65-D75EFC21F9CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}">
+					<ChildrenList>
+						<State Name="None" ID="{1FE4F69C-7EA7-499A-A941-DE8F8B552F3F}"/>
+						<State Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+						<State Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PlayerLocation" ID="{CC75A0B4-2242-4B1D-9FA9-9A37C1D5ADA2}">
+					<ChildrenList>
+						<State Name="None" ID="{017FDE90-CF73-45A9-92A8-A3D0239B0EB6}"/>
+						<State Name="Spawn" ID="{E20B77A4-EAEF-4280-A9F2-FB352B375FE7}"/>
+						<State Name="Hallway1" ID="{DCB4A770-C776-4840-B013-98EC17904679}"/>
+						<State Name="Hallway2" ID="{630408BA-9F93-4B63-835C-B9C00850D585}"/>
+						<State Name="BossRoom" ID="{8364FC20-F1E9-4C1B-BEC9-637506F18B47}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

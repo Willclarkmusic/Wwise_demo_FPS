@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e921a82319da8c74b868a7059cf71a9e, type: 3}
+  m_Name: 58C527A7-7BFE-444C-A4E8-BCBDAC9D64B7
+  m_EditorClassIdentifier: 
+  objectName: SFXBus
+  id: 3803850708
+  guid: 58C527A7-7BFE-444C-A4E8-BCBDAC9D64B7

@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4cf8ab8b965c84c8dcaf068268f860, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: aa445a0e052c464880fd1454c0af1e06
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: aa445a0e052c464880fd1454c0af1e06
+    GuidInternal: 
+    m_lastTime: -8584936647033705246
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cca8b020f8f2c143b9011688ee4c1e80
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: cca8b020f8f2c143b9011688ee4c1e80
+    GuidInternal: 
+    m_lastTime: -8584930448591854266
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca8b020f8f2c143b9011688ee4c1e80
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fa1a4389254e92469318f8c78df1f485
+    ParentPath: SoundBanks\Default Work Unit
+    guid: fa1a4389254e92469318f8c78df1f485
+    GuidInternal: 
+    m_lastTime: -8584930138336431791
+    List:
+    - name: MainSoundBank
+      guid: a75706ee3ec06849b6371d1b31a71d29
+      id: 534561221
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fa1a4389254e92469318f8c78df1f485
+      - ElementName: MainSoundBank
+        ObjectType: 7
+        guid: a75706ee3ec06849b6371d1b31a71d29
+      Path: SoundBanks\Default Work Unit\MainSoundBank
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a694b01cb9ab4845bf6aee8c62e7f05a
+    ParentPath: Events\Default Work Unit
+    guid: a694b01cb9ab4845bf6aee8c62e7f05a
+    GuidInternal: 
+    m_lastTime: -8584930138423432625
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7789a7f8114d0f478eda93514bfc3a95
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 7789a7f8114d0f478eda93514bfc3a95
+    GuidInternal: 
+    m_lastTime: -8584930449430000664
+    List:
+    - name: MasterBus
+      guid: e8aca2b21b5ef74a99c7d7ab30e4d41c
+      id: 835198467
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7789a7f8114d0f478eda93514bfc3a95
+      - ElementName: MasterBus
+        ObjectType: 13
+        guid: e8aca2b21b5ef74a99c7d7ab30e4d41c
+      Path: Game Parameters\Default Work Unit\MasterBus
+    - name: MusicBus
+      guid: 955ffe1d361e7e4aa9c5ee83d653b581
+      id: 2886307548
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7789a7f8114d0f478eda93514bfc3a95
+      - ElementName: MusicBus
+        ObjectType: 13
+        guid: 955ffe1d361e7e4aa9c5ee83d653b581
+      Path: Game Parameters\Default Work Unit\MusicBus
+    - name: SFXBus
+      guid: a727c558fe7b4c44a4e8bcbdac9d64b7
+      id: 3803850708
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7789a7f8114d0f478eda93514bfc3a95
+      - ElementName: SFXBus
+        ObjectType: 13
+        guid: a727c558fe7b4c44a4e8bcbdac9d64b7
+      Path: Game Parameters\Default Work Unit\SFXBus
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 88168620dc9ca6448a65d75efc21f9cf
+    ParentPath: States\Default Work Unit
+    guid: 88168620dc9ca6448a65d75efc21f9cf
+    GuidInternal: 
+    m_lastTime: -8584931113143229938
+    List:
+    - name: DragonState
+      guid: e081d58a55580d45adcd247d11ac2092
+      id: 3420125775
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88168620dc9ca6448a65d75efc21f9cf
+      - ElementName: DragonState
+        ObjectType: 9
+        guid: e081d58a55580d45adcd247d11ac2092
+      Path: States\Default Work Unit\DragonState
+      values:
+      - name: None
+        guid: 9cf6e41fa77e9a49a941de8f8b552f3f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: DragonState
+          ObjectType: 9
+          guid: e081d58a55580d45adcd247d11ac2092
+        - ElementName: None
+          ObjectType: 8
+          guid: 9cf6e41fa77e9a49a941de8f8b552f3f
+      - name: Patrolling
+        guid: 3ab0f873fead4841b4ee2d04fd972edb
+        id: 2799695215
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: DragonState
+          ObjectType: 9
+          guid: e081d58a55580d45adcd247d11ac2092
+        - ElementName: Patrolling
+          ObjectType: 8
+          guid: 3ab0f873fead4841b4ee2d04fd972edb
+      - name: Rage
+        guid: 156b9a238e211f40915077ba0b124a7c
+        id: 1942738266
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: DragonState
+          ObjectType: 9
+          guid: e081d58a55580d45adcd247d11ac2092
+        - ElementName: Rage
+          ObjectType: 8
+          guid: 156b9a238e211f40915077ba0b124a7c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PlayerLocation
+      guid: b4a075cc42221d4b9fa99a37c1d5ada2
+      id: 1602053271
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88168620dc9ca6448a65d75efc21f9cf
+      - ElementName: PlayerLocation
+        ObjectType: 9
+        guid: b4a075cc42221d4b9fa99a37c1d5ada2
+      Path: States\Default Work Unit\PlayerLocation
+      values:
+      - name: BossRoom
+        guid: 20fc6483e9f11b4cbec9637506f18b47
+        id: 3329270527
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: PlayerLocation
+          ObjectType: 9
+          guid: b4a075cc42221d4b9fa99a37c1d5ada2
+        - ElementName: BossRoom
+          ObjectType: 8
+          guid: 20fc6483e9f11b4cbec9637506f18b47
+      - name: Hallway1
+        guid: 70a7b4dc76c74048b01398ec17904679
+        id: 4053971346
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: PlayerLocation
+          ObjectType: 9
+          guid: b4a075cc42221d4b9fa99a37c1d5ada2
+        - ElementName: Hallway1
+          ObjectType: 8
+          guid: 70a7b4dc76c74048b01398ec17904679
+      - name: Hallway2
+        guid: ba080463939f634b835cb9c00850d585
+        id: 4053971345
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: PlayerLocation
+          ObjectType: 9
+          guid: b4a075cc42221d4b9fa99a37c1d5ada2
+        - ElementName: Hallway2
+          ObjectType: 8
+          guid: ba080463939f634b835cb9c00850d585
+      - name: None
+        guid: 90de7f0173cfa94592a8a3d0239b0eb6
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: PlayerLocation
+          ObjectType: 9
+          guid: b4a075cc42221d4b9fa99a37c1d5ada2
+        - ElementName: None
+          ObjectType: 8
+          guid: 90de7f0173cfa94592a8a3d0239b0eb6
+      - name: Spawn
+        guid: a4770be2efea8042a9f2fb352b375fe7
+        id: 71202558
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: PlayerLocation
+          ObjectType: 9
+          guid: b4a075cc42221d4b9fa99a37c1d5ada2
+        - ElementName: Spawn
+          ObjectType: 8
+          guid: a4770be2efea8042a9f2fb352b375fe7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2578a90f00f9ce4786c90fed8a1fb46f
+    ParentPath: Switches\Default Work Unit
+    guid: 2578a90f00f9ce4786c90fed8a1fb46f
+    GuidInternal: 
+    m_lastTime: -8584932822575243413
+    List:
+    - name: DragonState
+      guid: 24d853da6cfd04408149e527e0814dbe
+      id: 3420125775
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2578a90f00f9ce4786c90fed8a1fb46f
+      - ElementName: DragonState
+        ObjectType: 11
+        guid: 24d853da6cfd04408149e527e0814dbe
+      Path: Switches\Default Work Unit\DragonState
+      values:
+      - name: Patrolling
+        guid: 3089ac191b938b42b2fef5061dd83a43
+        id: 2799695215
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2578a90f00f9ce4786c90fed8a1fb46f
+        - ElementName: DragonState
+          ObjectType: 11
+          guid: 24d853da6cfd04408149e527e0814dbe
+        - ElementName: Patrolling
+          ObjectType: 10
+          guid: 3089ac191b938b42b2fef5061dd83a43
+      - name: Rage
+        guid: 447c0fce5adde94db2d69e7eafd97528
+        id: 1942738266
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2578a90f00f9ce4786c90fed8a1fb46f
+        - ElementName: DragonState
+          ObjectType: 11
+          guid: 24d853da6cfd04408149e527e0814dbe
+        - ElementName: Rage
+          ObjectType: 10
+          guid: 447c0fce5adde94db2d69e7eafd97528
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 16b53877140cf541a97251d1c6b350fb
+    ParentPath: Triggers\Default Work Unit
+    guid: 16b53877140cf541a97251d1c6b350fb
+    GuidInternal: 
+    m_lastTime: -8584936647033865269
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000d0000000e0000000f0000001b0000001c000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

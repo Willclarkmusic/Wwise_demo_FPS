@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Pyramind_GameAudio_FPS_01_WwiseProject" GUID="{F211A701-1C26-4907-8CB1-F03C742C44F5}" Generator="2023.1.1.8417"/>
+	<CacheRoot>../../../../Pyramind_GameAudio_FPS_01_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{4DB7D78B-B167-474E-8C65-EF57EFEA952E}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Pyramind_GameAudio_FPS_01_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{8DD4C5F4-83B7-407B-AEF5-BA92C165E1A8}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Pyramind_GameAudio_FPS_01_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{8CE8212E-AC37-442F-A071-971558807E6F}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{905F167E-C4DE-E691-0927-D267C5CB12E8}</FileHash>
+</ProjectInfo>

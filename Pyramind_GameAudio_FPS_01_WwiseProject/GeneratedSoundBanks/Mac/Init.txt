@@ -1,0 +1,24 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1602053271	PlayerLocation			\Default Work Unit\PlayerLocation	
+	3420125775	DragonState			\Default Work Unit\DragonState	
+
+State	ID	Name	State Group			Notes
+	71202558	Spawn	PlayerLocation			
+	748895195	None	PlayerLocation			
+	3329270527	BossRoom	PlayerLocation			
+	4053971345	Hallway2	PlayerLocation			
+	4053971346	Hallway1	PlayerLocation			
+	748895195	None	DragonState			
+	1942738266	Rage	DragonState			
+	2799695215	Patrolling	DragonState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	835198467	MasterBus			\Default Work Unit\MasterBus	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

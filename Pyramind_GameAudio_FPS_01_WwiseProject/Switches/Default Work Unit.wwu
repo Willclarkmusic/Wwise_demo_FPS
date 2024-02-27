@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0FA97825-F900-47CE-86C9-0FED8A1FB46F}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{0FA97825-F900-47CE-86C9-0FED8A1FB46F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="DragonState" ID="{DA53D824-FD6C-4004-8149-E527E0814DBE}">
+					<ChildrenList>
+						<Switch Name="Patrolling" ID="{19AC8930-931B-428B-B2FE-F5061DD83A43}"/>
+						<Switch Name="Rage" ID="{CE0F7C44-DD5A-4DE9-B2D6-9E7EAFD97528}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
