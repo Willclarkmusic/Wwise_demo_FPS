@@ -1,6 +1,373 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="FootstepBase" ID="{2C10F0DE-6A34-48C7-9EBB-D504D6B7610E}" ShortID="401560056">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Base [2024-03-07 105524]" ID="{51F0BD43-344A-4AAA-A935-D5FB957FCB4F}" ShortID="504226527">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105524]" ID="{C6B24D23-4455-4C73-BAF9-FEB21D7AB129}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105524].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="676058530"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105524]" ID="{C6B24D23-4455-4C73-BAF9-FEB21D7AB129}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105528]" ID="{2F3BFD5B-70EB-4F3D-AD0F-9AACC4F32585}" ShortID="321178612">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105528]" ID="{79718AEC-AED7-481F-BED1-D02A131A24E8}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105528].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1019567022"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105528]" ID="{79718AEC-AED7-481F-BED1-D02A131A24E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105532]" ID="{6E9F92FD-52C8-4C58-9DBF-5BF505937AE3}" ShortID="103458154">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105532]" ID="{A34363C8-486E-491F-A408-164B048C3514}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105532].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1068170247"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105532]" ID="{A34363C8-486E-491F-A408-164B048C3514}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105538]" ID="{A1DADDA0-7547-43BA-880D-B5C09375D169}" ShortID="982845557">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105538]" ID="{9AE48C91-1D1A-437D-941C-7716A9C7CA35}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105538].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1019518197"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105538]" ID="{9AE48C91-1D1A-437D-941C-7716A9C7CA35}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105541]" ID="{9BF3B44F-2993-4630-9599-CB044EB59244}" ShortID="1062767290">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105541]" ID="{73F506C3-974F-404D-9EE7-A36E4CE3CEFA}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105541].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1055529668"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105541]" ID="{73F506C3-974F-404D-9EE7-A36E4CE3CEFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105544]" ID="{CAB7BC50-75CC-43AB-9BEE-49905279FB89}" ShortID="741255252">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105544]" ID="{FA851608-8981-4B51-ABE5-D0C3863C8595}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105544].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="214290250"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105544]" ID="{FA851608-8981-4B51-ABE5-D0C3863C8595}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105549]" ID="{12473C98-A58C-4AD1-9494-38F8A5238D77}" ShortID="785784562">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105549]" ID="{48C4A59E-7629-4B4F-9B67-FC0BD0B680A3}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105549].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="470558052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105549]" ID="{48C4A59E-7629-4B4F-9B67-FC0BD0B680A3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105553]" ID="{A7B234DB-B287-4B4C-A524-235FA5800EEE}" ShortID="279219067">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105553]" ID="{F3DF7855-B15D-4B7E-8A0E-DC01337902FD}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105553].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582496517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105553]" ID="{F3DF7855-B15D-4B7E-8A0E-DC01337902FD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105600]" ID="{A4E6E899-AF06-4858-9FE0-7BC3B4DA13DD}" ShortID="221396524">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105600]" ID="{BC147094-5AE1-417B-9308-DFC9A59E88AC}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105600].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="773695152"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105600]" ID="{BC147094-5AE1-417B-9308-DFC9A59E88AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105603]" ID="{70C65004-4C98-4193-B8CB-4D2401DFE2D0}" ShortID="781067331">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105603]" ID="{66D8784A-A81F-4A8D-8D4A-20A30EBC0069}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105603].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="73362843"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105603]" ID="{66D8784A-A81F-4A8D-8D4A-20A30EBC0069}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105606]" ID="{40A80160-59F1-414D-A431-B87C7C9B562A}" ShortID="852327546">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105606]" ID="{EAEE5066-8033-4125-AAB8-37986F24E577}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105606].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="420474174"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105606]" ID="{EAEE5066-8033-4125-AAB8-37986F24E577}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105610]" ID="{5DBFF56D-AA0D-43AE-A3B6-F8CF6D086F43}" ShortID="396686741">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105610]" ID="{E9EF1F36-C107-49C5-980C-67F4193E44A6}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105610].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="410423748"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105610]" ID="{E9EF1F36-C107-49C5-980C-67F4193E44A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105613]" ID="{40EAAA59-C751-4CF4-9F76-04B34CCC099A}" ShortID="202640522">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105613]" ID="{4B9FAB18-681D-455B-A6CE-16BAD3577FC3}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105613].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="594186458"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105613]" ID="{4B9FAB18-681D-455B-A6CE-16BAD3577FC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105618]" ID="{979821D5-14AC-4E10-A555-5640811D3EDD}" ShortID="532463773">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105618]" ID="{D5330413-0475-4097-BD2B-0349FB6FC217}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105618].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="376700689"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105618]" ID="{D5330413-0475-4097-BD2B-0349FB6FC217}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105622]" ID="{C645B6BB-6CEF-42A3-94F3-AAB4E727CFC6}" ShortID="472654164">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105622]" ID="{84247293-CCBC-4B5B-8E35-B07AA9B66EE3}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105622].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="510555197"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105622]" ID="{84247293-CCBC-4B5B-8E35-B07AA9B66EE3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Base [2024-03-07 105625]" ID="{218286C1-0A05-45C3-89DB-D6EA729B6243}" ShortID="671276636">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Base [2024-03-07 105625]" ID="{E6F60940-C649-4AE7-926B-72EE47E00972}">
+									<Language>SFX</Language>
+									<AudioFile>Base [2024-03-07 105625].wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1006133516"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Base [2024-03-07 105625]" ID="{E6F60940-C649-4AE7-926B-72EE47E00972}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
