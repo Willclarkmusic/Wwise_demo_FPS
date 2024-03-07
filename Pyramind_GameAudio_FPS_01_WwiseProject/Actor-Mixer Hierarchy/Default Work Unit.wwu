@@ -3,7 +3,19 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="FootstepBase" ID="{2C10F0DE-6A34-48C7-9EBB-D504D6B7610E}" ShortID="401560056">
+				<BlendContainer Name="Player-Footstep_L" ID="{CA960A56-F216-4BB4-A786-840A75B3C7B6}" ShortID="386708638">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
@@ -13,7 +25,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Base [2024-03-07 105524]" ID="{51F0BD43-344A-4AAA-A935-D5FB957FCB4F}" ShortID="504226527">
+						<RandomSequenceContainer Name="FootstepBase" ID="{2C10F0DE-6A34-48C7-9EBB-D504D6B7610E}" ShortID="401560056">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
@@ -23,20 +40,2402 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105524]" ID="{C6B24D23-4455-4C73-BAF9-FEB21D7AB129}">
+								<Sound Name="Base [2024-03-07 105524]" ID="{51F0BD43-344A-4AAA-A935-D5FB957FCB4F}" ShortID="504226527">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105524]" ID="{C6B24D23-4455-4C73-BAF9-FEB21D7AB129}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105524].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="676058530"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105524]" ID="{C6B24D23-4455-4C73-BAF9-FEB21D7AB129}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105528]" ID="{2F3BFD5B-70EB-4F3D-AD0F-9AACC4F32585}" ShortID="321178612">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105528]" ID="{79718AEC-AED7-481F-BED1-D02A131A24E8}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105528].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019567022"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105528]" ID="{79718AEC-AED7-481F-BED1-D02A131A24E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105532]" ID="{6E9F92FD-52C8-4C58-9DBF-5BF505937AE3}" ShortID="103458154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105532]" ID="{A34363C8-486E-491F-A408-164B048C3514}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105532].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1068170247"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105532]" ID="{A34363C8-486E-491F-A408-164B048C3514}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105538]" ID="{A1DADDA0-7547-43BA-880D-B5C09375D169}" ShortID="982845557">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105538]" ID="{9AE48C91-1D1A-437D-941C-7716A9C7CA35}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105538].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019518197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105538]" ID="{9AE48C91-1D1A-437D-941C-7716A9C7CA35}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105541]" ID="{9BF3B44F-2993-4630-9599-CB044EB59244}" ShortID="1062767290">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105541]" ID="{73F506C3-974F-404D-9EE7-A36E4CE3CEFA}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105541].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1055529668"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105541]" ID="{73F506C3-974F-404D-9EE7-A36E4CE3CEFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105544]" ID="{CAB7BC50-75CC-43AB-9BEE-49905279FB89}" ShortID="741255252">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105544]" ID="{FA851608-8981-4B51-ABE5-D0C3863C8595}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105544].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214290250"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105544]" ID="{FA851608-8981-4B51-ABE5-D0C3863C8595}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105549]" ID="{12473C98-A58C-4AD1-9494-38F8A5238D77}" ShortID="785784562">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105549]" ID="{48C4A59E-7629-4B4F-9B67-FC0BD0B680A3}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105549].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470558052"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105549]" ID="{48C4A59E-7629-4B4F-9B67-FC0BD0B680A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105553]" ID="{A7B234DB-B287-4B4C-A524-235FA5800EEE}" ShortID="279219067">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105553]" ID="{F3DF7855-B15D-4B7E-8A0E-DC01337902FD}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105553].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582496517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105553]" ID="{F3DF7855-B15D-4B7E-8A0E-DC01337902FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105600]" ID="{A4E6E899-AF06-4858-9FE0-7BC3B4DA13DD}" ShortID="221396524">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105600]" ID="{BC147094-5AE1-417B-9308-DFC9A59E88AC}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105600].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="773695152"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105600]" ID="{BC147094-5AE1-417B-9308-DFC9A59E88AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105603]" ID="{70C65004-4C98-4193-B8CB-4D2401DFE2D0}" ShortID="781067331">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105603]" ID="{66D8784A-A81F-4A8D-8D4A-20A30EBC0069}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105603].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="73362843"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105603]" ID="{66D8784A-A81F-4A8D-8D4A-20A30EBC0069}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105606]" ID="{40A80160-59F1-414D-A431-B87C7C9B562A}" ShortID="852327546">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105606]" ID="{EAEE5066-8033-4125-AAB8-37986F24E577}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105606].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="420474174"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105606]" ID="{EAEE5066-8033-4125-AAB8-37986F24E577}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105610]" ID="{5DBFF56D-AA0D-43AE-A3B6-F8CF6D086F43}" ShortID="396686741">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105610]" ID="{E9EF1F36-C107-49C5-980C-67F4193E44A6}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105610].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="410423748"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105610]" ID="{E9EF1F36-C107-49C5-980C-67F4193E44A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105613]" ID="{40EAAA59-C751-4CF4-9F76-04B34CCC099A}" ShortID="202640522">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105613]" ID="{4B9FAB18-681D-455B-A6CE-16BAD3577FC3}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105613].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="594186458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105613]" ID="{4B9FAB18-681D-455B-A6CE-16BAD3577FC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105618]" ID="{979821D5-14AC-4E10-A555-5640811D3EDD}" ShortID="532463773">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105618]" ID="{D5330413-0475-4097-BD2B-0349FB6FC217}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105618].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="376700689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105618]" ID="{D5330413-0475-4097-BD2B-0349FB6FC217}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105622]" ID="{C645B6BB-6CEF-42A3-94F3-AAB4E727CFC6}" ShortID="472654164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105622]" ID="{84247293-CCBC-4B5B-8E35-B07AA9B66EE3}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105622].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="510555197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105622]" ID="{84247293-CCBC-4B5B-8E35-B07AA9B66EE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105625]" ID="{218286C1-0A05-45C3-89DB-D6EA729B6243}" ShortID="671276636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105625]" ID="{E6F60940-C649-4AE7-926B-72EE47E00972}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105625].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1006133516"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105625]" ID="{E6F60940-C649-4AE7-926B-72EE47E00972}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{26F4E121-35D8-475F-B285-0E079CDB7E87}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-14.6167557932264"/>
+										<Property Name="PanY" Type="Real64" Value="10.7485604606526"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Step" ID="{DCB924C5-ADE3-464E-A02C-5BCEF9184B71}" ShortID="751390848">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E911D958-F1A3-4735-AFA7-41FA8B9D4F19}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="253"/>
+													<Property Name="Min" Type="Real64" Value="-227"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Step [2024-03-07 105524]" ID="{2B586420-A847-4650-9C2F-D6CE406A39D0}" ShortID="1032460288">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105524]" ID="{92B008F9-E602-4044-BAFE-D3EE50A22ED6}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105524].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="221468337"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105524]" ID="{92B008F9-E602-4044-BAFE-D3EE50A22ED6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105528]" ID="{DC9C4CA9-B341-4A7F-8A6E-7827B09DDE19}" ShortID="594763458">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105528]" ID="{FF4F3738-FD43-4E82-A833-B9AF3E78B0DF}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105528].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="519080133"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105528]" ID="{FF4F3738-FD43-4E82-A833-B9AF3E78B0DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105532]" ID="{476F9E2B-C854-49F5-95C7-E802575145BD}" ShortID="720967989">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105532]" ID="{DB15D9AE-EA00-49C8-A002-B9A527084D3E}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105532].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233979971"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105532]" ID="{DB15D9AE-EA00-49C8-A002-B9A527084D3E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105538]" ID="{56D3BB79-1E3C-4287-B06D-E3297C1EE8A1}" ShortID="633367819">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105538]" ID="{817B8847-065D-4969-91CE-C445ED1D4E3A}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105538].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802118126"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105538]" ID="{817B8847-065D-4969-91CE-C445ED1D4E3A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105541]" ID="{33B2FCDD-0529-46F1-B821-B27BF0D61AA4}" ShortID="576941789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105541]" ID="{476F735B-D71D-441D-89C9-362EB160A626}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105541].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1057490128"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105541]" ID="{476F735B-D71D-441D-89C9-362EB160A626}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105544]" ID="{F93FE0A9-AA49-46F0-936D-63C6EE9F54F6}" ShortID="104760596">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105544]" ID="{16050B43-CC02-431A-9AE2-F17DB7355B28}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105544].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1061184809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105544]" ID="{16050B43-CC02-431A-9AE2-F17DB7355B28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105549]" ID="{264E8E10-2429-498C-B53C-F9D9011DEEE1}" ShortID="942332388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105549]" ID="{2E103917-980A-4658-8729-C63DA4AA615D}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105549].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="21203078"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105549]" ID="{2E103917-980A-4658-8729-C63DA4AA615D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105553]" ID="{E353DB63-CA76-42BE-A173-5D35F610D26A}" ShortID="143937742">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105553]" ID="{278F7552-F2FE-41BC-9E05-9765DC6C68CA}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105553].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="359821373"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105553]" ID="{278F7552-F2FE-41BC-9E05-9765DC6C68CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105600]" ID="{2BC3D188-FC80-42CD-98F0-8E368B2BF47E}" ShortID="627435388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105600]" ID="{B61E9C77-60D1-4F10-83D0-C31247796CB7}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105600].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="283992710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105600]" ID="{B61E9C77-60D1-4F10-83D0-C31247796CB7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105603]" ID="{1DC87986-3E43-4F78-AD20-2927F9587542}" ShortID="153471503">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105603]" ID="{7DD12DFB-7D45-49F3-A077-8E81EF1B6AC6}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105603].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="692728516"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105603]" ID="{7DD12DFB-7D45-49F3-A077-8E81EF1B6AC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105606]" ID="{4C09BA7B-4FF2-434C-B8C9-66054BB5D615}" ShortID="195779988">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105606]" ID="{3821A08D-D179-4D40-896D-D50CA76FEED8}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105606].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="168856352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105606]" ID="{3821A08D-D179-4D40-896D-D50CA76FEED8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105610]" ID="{0EC54F99-7816-4D00-8D9E-75F7F88A4F9B}" ShortID="579518796">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105610]" ID="{17170F4F-5185-4BDA-9E3B-371440BAC0FD}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105610].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="12905105"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105610]" ID="{17170F4F-5185-4BDA-9E3B-371440BAC0FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105613]" ID="{DD051504-6303-492F-B40B-FD522419FABF}" ShortID="686296343">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105613]" ID="{238087E4-F4AD-4B4C-861D-E9C481958E1F}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105613].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="535485942"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105613]" ID="{238087E4-F4AD-4B4C-861D-E9C481958E1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105618]" ID="{994C530E-3FBA-4A70-ACA0-40FEA5833945}" ShortID="422868626">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105618]" ID="{4A873F0D-BEB1-4A61-923D-1452774AF2C8}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105618].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818946958"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105618]" ID="{4A873F0D-BEB1-4A61-923D-1452774AF2C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105622]" ID="{42681BF8-44CF-4CCF-B38C-83B07180D6F9}" ShortID="913196806">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105622]" ID="{C047BCA2-2D5F-416F-9BAA-EA47CED62778}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105622].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1059687876"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105622]" ID="{C047BCA2-2D5F-416F-9BAA-EA47CED62778}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105625]" ID="{105B6BE8-111B-4401-9F0A-1A3E6C4EBFF1}" ShortID="196391470">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105625]" ID="{3E2131EF-287E-418B-AC1C-4BAAD1336B0F}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105625].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="384940490"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105625]" ID="{3E2131EF-287E-418B-AC1C-4BAAD1336B0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{84B7AEDB-727F-47D1-BD74-F812B5A27D21}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-19.2513368983957"/>
+										<Property Name="PanY" Type="Real64" Value="7.29366602687139"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Clothing" ID="{5B116D06-0A79-4D4D-A0ED-8E8C070C5F44}" ShortID="798776150">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]" ID="{9A022C01-2C0C-4353-936F-A265D7B41603}" ShortID="351479091">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]" ID="{DF15B92B-DA7A-4684-AD8D-07D097E88D22}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1050420937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]" ID="{DF15B92B-DA7A-4684-AD8D-07D097E88D22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406]" ID="{49D92323-B554-481C-B12C-2819AFD7DFA6}" ShortID="818948009">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406]" ID="{693F8CDC-63A3-4A40-A9B3-D047A495B162}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="572342737"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406]" ID="{693F8CDC-63A3-4A40-A9B3-D047A495B162}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407]" ID="{3992F0F6-9DF2-46C9-B85E-5E1002756A66}" ShortID="229523639">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407]" ID="{68C7AA43-2D2E-4645-9DBA-AD0CDCA11921}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="159563247"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407]" ID="{68C7AA43-2D2E-4645-9DBA-AD0CDCA11921}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408]" ID="{13C8CE80-77FB-4102-BF3B-F87DF525E24B}" ShortID="697454584">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408]" ID="{89A3A66F-9868-468E-8A41-2349895D1176}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="259600893"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408]" ID="{89A3A66F-9868-468E-8A41-2349895D1176}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409]" ID="{F94F0EED-B25F-4E3B-B7C3-4F5113D1D24B}" ShortID="880293439">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409]" ID="{6DBA7A2A-3EAA-4366-9AA9-3251C5968CB2}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="115692306"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409]" ID="{6DBA7A2A-3EAA-4366-9AA9-3251C5968CB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411]" ID="{F9432D79-6753-47A4-A09C-652245FF9810}" ShortID="118320188">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411]" ID="{E4F0092B-0F51-4B22-A354-59F6427D54B8}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308895833"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411]" ID="{E4F0092B-0F51-4B22-A354-59F6427D54B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412]" ID="{6CC71BC2-BB61-49A2-BF95-CF401DEC5AE1}" ShortID="749223808">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412]" ID="{91649DD7-3C72-4C25-9E10-CF5F946E6B06}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="348276566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412]" ID="{91649DD7-3C72-4C25-9E10-CF5F946E6B06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413]" ID="{954D86B2-C5B2-4361-BCEE-157CC9178D40}" ShortID="420782437">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413]" ID="{EDE33636-7E8D-475A-AEA5-6E57BB211A01}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="552086189"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413]" ID="{EDE33636-7E8D-475A-AEA5-6E57BB211A01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Armor" ID="{59B2AE67-A202-4F67-B80D-B51378555047}" ShortID="804941303">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{967437B7-3C6F-4A29-8EE3-23C27CADA776}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-303"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507]" ID="{C4A943D3-DD17-4F5A-990F-04825713E895}" ShortID="997675832">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507]" ID="{0D29EFD2-FD10-49D2-BD55-2B90569C9C5E}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="780280430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507]" ID="{0D29EFD2-FD10-49D2-BD55-2B90569C9C5E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502]" ID="{95DA3CCD-C14B-41C5-9ACD-D5B9D9AEDF5E}" ShortID="422692591">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502]" ID="{DFFF9CF6-A00C-4D8F-82A1-41BABFD43AD8}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="11511346"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502]" ID="{DFFF9CF6-A00C-4D8F-82A1-41BABFD43AD8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505]" ID="{650AB6BE-F9C6-4CD8-9A2C-EA5EB57A9365}" ShortID="516838313">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505]" ID="{EEA55FE4-BAFA-4A2B-A14C-B39A66198B0E}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977390148"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505]" ID="{EEA55FE4-BAFA-4A2B-A14C-B39A66198B0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506]" ID="{E136E761-8AF3-48B3-A504-CBEEB339B243}" ShortID="407615259">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506]" ID="{AD93B41C-B981-43D7-A74B-A6C0FB801611}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496861108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506]" ID="{AD93B41C-B981-43D7-A74B-A6C0FB801611}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511]" ID="{E174C90D-4579-43EF-8F70-70C9E5D68E20}" ShortID="551024831">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511]" ID="{206C4C06-87C2-4B2D-9630-AAE2724EE613}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="715996633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511]" ID="{206C4C06-87C2-4B2D-9630-AAE2724EE613}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512]" ID="{DE557BEE-AC8E-47E3-9C3D-F84E104231D1}" ShortID="593278428">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512]" ID="{85418135-9DEB-4F2E-A06E-CE4566B91C53}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="704130375"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512]" ID="{85418135-9DEB-4F2E-A06E-CE4566B91C53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{DAEAA916-F844-490A-94B1-57E57E362E9A}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-35"/>
+								<Property Name="PanY" Type="Real64" Value="30"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+				</BlendContainer>
+				<BlendContainer Name="Player-Footstep_R" ID="{8A846544-B5F5-4519-BD0D-338C7F5A7761}" ShortID="25879084">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="FootstepBase" ID="{E3FD749D-AACB-4F2F-AAD3-FE6EF83728C8}" ShortID="143094101">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Base [2024-03-07 105524]" ID="{33F7FD3F-9A2D-4C38-97AF-E0AF753A2BE9}" ShortID="506975675">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105524]" ID="{A313B07B-8699-47D3-97C2-01C697653239}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105524].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="676058530"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105524]" ID="{A313B07B-8699-47D3-97C2-01C697653239}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105528]" ID="{1FDAD96E-C47C-48C2-8862-4582C4D2F97C}" ShortID="469632885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105528]" ID="{0A68B9C4-C4C9-4AF6-84C4-4749172F1690}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105528].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019567022"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105528]" ID="{0A68B9C4-C4C9-4AF6-84C4-4749172F1690}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105532]" ID="{727444F2-2FEF-409F-B827-34376AA7EB4B}" ShortID="626241524">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105532]" ID="{25590BA1-4046-4AFD-8D04-866EDCAEBD2E}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105532].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1068170247"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105532]" ID="{25590BA1-4046-4AFD-8D04-866EDCAEBD2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105538]" ID="{FBC09F7A-E5CB-42B2-9891-BF694965B9A9}" ShortID="355333283">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105538]" ID="{3869462E-4549-479A-BBC4-8B16DB065366}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105538].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019518197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105538]" ID="{3869462E-4549-479A-BBC4-8B16DB065366}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105541]" ID="{6D259B67-DD7A-44A5-A974-436B97164C21}" ShortID="406594264">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105541]" ID="{D1BE3217-349D-493A-8312-CED3236F5F84}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105541].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1055529668"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105541]" ID="{D1BE3217-349D-493A-8312-CED3236F5F84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105544]" ID="{832107AE-C6AB-432E-8760-1548329DE26F}" ShortID="174525207">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105544]" ID="{3217E67F-BD1B-4BD3-ABEB-3A8BB4412A25}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105544].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214290250"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105544]" ID="{3217E67F-BD1B-4BD3-ABEB-3A8BB4412A25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105549]" ID="{927837E9-884A-443B-BF7D-6A11992F3634}" ShortID="972434915">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105549]" ID="{3D216B50-AB4B-4DE8-B13F-758122AE4394}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105549].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470558052"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105549]" ID="{3D216B50-AB4B-4DE8-B13F-758122AE4394}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105553]" ID="{0B5D49CE-91F0-4618-B400-A444E8E242E2}" ShortID="875409873">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105553]" ID="{8768CC3E-5DFB-4FBB-B8EF-D0E8EA3AA38C}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105553].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582496517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105553]" ID="{8768CC3E-5DFB-4FBB-B8EF-D0E8EA3AA38C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105600]" ID="{E8F005ED-5B2E-4326-8708-01FEB56440B1}" ShortID="871229692">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105600]" ID="{813E5755-A816-4BCA-A236-3EF11133C131}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105600].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="773695152"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105600]" ID="{813E5755-A816-4BCA-A236-3EF11133C131}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105603]" ID="{FC38925A-2467-4E24-BC24-63E2919969D7}" ShortID="512103694">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105603]" ID="{B6624564-DE3D-4B1B-92B7-AD7BB3A49BCE}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105603].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="73362843"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105603]" ID="{B6624564-DE3D-4B1B-92B7-AD7BB3A49BCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105606]" ID="{EA0A99F0-EA3D-4769-8B23-BCC6832ED13A}" ShortID="437103668">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105606]" ID="{8E7673B8-82D4-47EC-A372-EC33CBAFCAF3}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105606].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="420474174"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105606]" ID="{8E7673B8-82D4-47EC-A372-EC33CBAFCAF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105610]" ID="{2E7F4717-2A0A-4E3C-B94E-A04709ED1D91}" ShortID="104363708">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105610]" ID="{A3727C78-BCD2-4661-8148-5C6AAA403FB4}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105610].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="410423748"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105610]" ID="{A3727C78-BCD2-4661-8148-5C6AAA403FB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105613]" ID="{A0BD50D5-04C9-4C65-A46A-F2C480997F06}" ShortID="323202169">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105613]" ID="{34B43D52-6251-4FFB-B1BE-476114C6B397}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105613].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="594186458"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105613]" ID="{34B43D52-6251-4FFB-B1BE-476114C6B397}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105618]" ID="{3E1B7A6A-CA85-46A4-BF44-C999188C3BB2}" ShortID="691940361">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105618]" ID="{04C2CEE4-CE89-4242-AD2A-D1A32F053873}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105618].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="376700689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105618]" ID="{04C2CEE4-CE89-4242-AD2A-D1A32F053873}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105622]" ID="{CBC35DB5-95A5-4E5F-AF6D-4E5B5172121E}" ShortID="373973369">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105622]" ID="{D600362A-0B68-4B50-B3FE-87E6CE7E516E}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105622].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="510555197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105622]" ID="{D600362A-0B68-4B50-B3FE-87E6CE7E516E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Base [2024-03-07 105625]" ID="{2D56BE2E-EBC8-41A2-858A-85BC4C3AD2F5}" ShortID="483941258">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Base [2024-03-07 105625]" ID="{78A6A853-87CB-4321-B8E3-FCBC5719F035}">
+											<Language>SFX</Language>
+											<AudioFile>Base [2024-03-07 105625].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1006133516"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Base [2024-03-07 105625]" ID="{78A6A853-87CB-4321-B8E3-FCBC5719F035}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{E5402380-4459-41A0-A4C7-5CF4095102F1}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="21.74688057041"/>
+										<Property Name="PanY" Type="Real64" Value="7.2936660268714"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Step" ID="{881A5DA9-87D5-479B-BA48-0557F400A674}" ShortID="804333484">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{84BE1282-2A22-445B-8383-9BE79FA5FEDE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="253"/>
+													<Property Name="Min" Type="Real64" Value="-227"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Step [2024-03-07 105524]" ID="{A00BD59F-A8D5-4B6B-AB7F-C62F49164375}" ShortID="331363011">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105524]" ID="{7C095C02-B4B9-4D6F-AB1C-818354967994}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105524].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="221468337"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105524]" ID="{7C095C02-B4B9-4D6F-AB1C-818354967994}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105528]" ID="{5164551A-D686-401C-A826-DC65F0EDF47C}" ShortID="141557489">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105528]" ID="{EE55730B-921A-4188-A881-B8228B24246C}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105528].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="519080133"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105528]" ID="{EE55730B-921A-4188-A881-B8228B24246C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105532]" ID="{07C00949-213E-414C-8F5F-60C3765B21E7}" ShortID="812797226">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105532]" ID="{5029CEBF-3335-48FA-8972-1DE882345194}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105532].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233979971"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105532]" ID="{5029CEBF-3335-48FA-8972-1DE882345194}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105538]" ID="{E30DF8C7-0E10-4672-9DB2-4F40FF31B1C0}" ShortID="255435932">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105538]" ID="{92E9C417-7F30-440F-9080-C73F6D10C3FB}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105538].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802118126"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105538]" ID="{92E9C417-7F30-440F-9080-C73F6D10C3FB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105541]" ID="{29595178-0020-4E05-8651-8EC4557B286C}" ShortID="885782342">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105541]" ID="{E7357CF3-AD9C-49E6-AACD-4290232BAB93}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105541].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1057490128"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105541]" ID="{E7357CF3-AD9C-49E6-AACD-4290232BAB93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105544]" ID="{5013D69B-1224-49E1-9499-5192BE2BDE34}" ShortID="682813220">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105544]" ID="{EFF26E33-A6E8-464D-BC6E-11B621AFE201}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105544].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1061184809"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105544]" ID="{EFF26E33-A6E8-464D-BC6E-11B621AFE201}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105549]" ID="{1769D949-4DFA-4FFC-891A-C1216ED0ECB6}" ShortID="859380743">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105549]" ID="{F9F2334D-0C5B-44B4-B483-0D0C85935119}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105549].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="21203078"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105549]" ID="{F9F2334D-0C5B-44B4-B483-0D0C85935119}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105553]" ID="{0E88ADDD-B5B4-42D1-A3F5-DCA028B4BBEB}" ShortID="694326058">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105553]" ID="{A7986885-B447-4A8B-98A7-7ACE73C60748}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105553].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="359821373"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105553]" ID="{A7986885-B447-4A8B-98A7-7ACE73C60748}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105600]" ID="{B2AC1CAF-86A2-4C3A-AFCD-A8F6A178A51B}" ShortID="757081592">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105600]" ID="{C487B79F-BCE7-46D4-BB04-8DE0C1F92685}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105600].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="283992710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105600]" ID="{C487B79F-BCE7-46D4-BB04-8DE0C1F92685}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105603]" ID="{B467A984-114B-4AC6-BC11-A50CF71A5C72}" ShortID="487410812">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105603]" ID="{307C0617-5017-4A3A-9705-F72B68540CF7}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105603].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="692728516"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105603]" ID="{307C0617-5017-4A3A-9705-F72B68540CF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105606]" ID="{59C414A2-21D3-469D-BEFB-FA9373611F8E}" ShortID="221535357">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105606]" ID="{E18C813E-3F77-41F7-A725-DA69F3998BB9}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105606].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="168856352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105606]" ID="{E18C813E-3F77-41F7-A725-DA69F3998BB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105610]" ID="{FE731F13-5F14-42F2-A907-816B3EAA2E5F}" ShortID="629891338">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105610]" ID="{B53E70E7-7E2A-4F0D-8AC0-A31CFD52DDF8}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105610].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="12905105"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105610]" ID="{B53E70E7-7E2A-4F0D-8AC0-A31CFD52DDF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105613]" ID="{CCFB845C-48CB-41FE-8038-42540AE7B12D}" ShortID="838435551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105613]" ID="{5497F192-44CD-4DEE-B0AB-44A14CFF4B5F}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105613].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="535485942"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105613]" ID="{5497F192-44CD-4DEE-B0AB-44A14CFF4B5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105618]" ID="{F508C08B-305F-448D-82D5-9D38390B81E7}" ShortID="57788233">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105618]" ID="{E258C881-EAB3-4979-99A5-587743B9DE39}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105618].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818946958"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105618]" ID="{E258C881-EAB3-4979-99A5-587743B9DE39}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105622]" ID="{B18D623E-8EBF-4DEC-8D5E-5B107D06ED51}" ShortID="39558635">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105622]" ID="{33D13962-9EA5-4321-A93D-50D2F2104ACB}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105622].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1059687876"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105622]" ID="{33D13962-9EA5-4321-A93D-50D2F2104ACB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Step [2024-03-07 105625]" ID="{EAC21A33-22A6-41DA-BE79-9A17A4F06587}" ShortID="486737213">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Step [2024-03-07 105625]" ID="{4583E70E-F108-4F19-B0D1-0B2C1FB377A0}">
+											<Language>SFX</Language>
+											<AudioFile>Step [2024-03-07 105625].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="384940490"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Step [2024-03-07 105625]" ID="{4583E70E-F108-4F19-B0D1-0B2C1FB377A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{791E98FE-0D94-4E19-BA29-E0A0067173D5}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="21.74688057041"/>
+										<Property Name="PanY" Type="Real64" Value="7.29366602687139"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Clothing" ID="{FBF64A9F-8DEB-4CDE-9CA9-376110CDAD9A}" ShortID="689585911">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]" ID="{C2E0C01A-2201-4EC7-A1CC-955C6BE61F92}" ShortID="587016018">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]" ID="{1A16493F-5EB4-4C52-B096-8CB2F23D3E62}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1050420937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]" ID="{1A16493F-5EB4-4C52-B096-8CB2F23D3E62}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406]" ID="{FF8385FD-4ECB-4606-8C36-A81A1C1839A8}" ShortID="224515785">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406]" ID="{9A8AAB73-82F8-4562-B375-2D1450E41694}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="572342737"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406]" ID="{9A8AAB73-82F8-4562-B375-2D1450E41694}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407]" ID="{E161FF7A-581E-4A2C-B640-C5B6FF9AB27D}" ShortID="322076386">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407]" ID="{17ED4B26-6EE9-4723-B482-A6B25ADD0B73}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="159563247"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407]" ID="{17ED4B26-6EE9-4723-B482-A6B25ADD0B73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408]" ID="{74135C46-33D8-4B60-8D78-74C794BB5CBF}" ShortID="741930179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408]" ID="{0FB612C0-948A-4E62-B2D7-116B556F951E}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="259600893"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408]" ID="{0FB612C0-948A-4E62-B2D7-116B556F951E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409]" ID="{4A3E58E9-AE30-4B65-9D0D-B89962A7DA48}" ShortID="54638920">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409]" ID="{6441BCF4-16C8-4830-B6D4-E27DB7C97120}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="115692306"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409]" ID="{6441BCF4-16C8-4830-B6D4-E27DB7C97120}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411]" ID="{5775CE8D-9C20-4714-8BC1-4E8D5140C25B}" ShortID="314369194">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411]" ID="{21364542-1B77-4845-B376-4F3C71443076}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308895833"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411]" ID="{21364542-1B77-4845-B376-4F3C71443076}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412]" ID="{9568311E-67C3-4A03-B0BD-578755B63DD9}" ShortID="343487415">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412]" ID="{69798A9D-599C-4BB6-9397-31656194CC22}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="348276566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412]" ID="{69798A9D-599C-4BB6-9397-31656194CC22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413]" ID="{85474CEC-CF9A-4C10-9158-8A9126E0AB87}" ShortID="914359895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413]" ID="{831209B4-C289-4E5E-9BBE-4C335B214D97}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="552086189"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413]" ID="{831209B4-C289-4E5E-9BBE-4C335B214D97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Armor" ID="{06B2AA6C-2F27-4838-8A6C-E853E4AC0CFE}" ShortID="774458797">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0CDE5C6D-1101-4531-986F-19514957CD9F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-303"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507]" ID="{22DD2300-6202-43AA-AF62-98BECE994A77}" ShortID="861138158">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507]" ID="{75C5A455-AD5D-4151-90AD-C4026C82AE73}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="780280430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507]" ID="{75C5A455-AD5D-4151-90AD-C4026C82AE73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502]" ID="{F6D5DDD8-4DB5-480B-9C92-0B0BC44A0454}" ShortID="643514728">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502]" ID="{17537FF4-F515-438C-8718-D4865DDE6474}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="11511346"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502]" ID="{17537FF4-F515-438C-8718-D4865DDE6474}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505]" ID="{E585C8E2-B2A9-48B4-AFAE-B775976EA44A}" ShortID="357658856">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505]" ID="{EE589A29-1DF5-41D6-B194-624B4AE8DF86}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977390148"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505]" ID="{EE589A29-1DF5-41D6-B194-624B4AE8DF86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506]" ID="{B64547E7-28AF-4BB4-BCC0-B6E7827EEBD5}" ShortID="596290336">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506]" ID="{B6B02470-2B49-4AF1-ACE3-9633805331CC}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496861108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506]" ID="{B6B02470-2B49-4AF1-ACE3-9633805331CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511]" ID="{E0789430-863D-4A7D-B50B-2407FEF487ED}" ShortID="217396165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511]" ID="{3425170E-6049-4E66-8095-5A972E835ACD}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="715996633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511]" ID="{3425170E-6049-4E66-8095-5A972E835ACD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512]" ID="{9AACEA3B-70C1-4F33-84AE-5845535E56B9}" ShortID="135996273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512]" ID="{7B4AC49D-03E9-40B8-B99F-6798C6C3A356}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512].wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="704130375"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512]" ID="{7B4AC49D-03E9-40B8-B99F-6798C6C3A356}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{BA2F70F7-46EA-4EB5-A95D-9A21268D5589}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="35"/>
+								<Property Name="PanY" Type="Real64" Value="30"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+				</BlendContainer>
+				<BlendContainer Name="Dragon_Base" ID="{F6A0A050-654C-46AA-B1E8-27EFCDA2701E}" ShortID="987987893">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Dragon" ID="{02146C67-B082-4B3D-933D-659B5AF9AB22}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Dragon_idle_breathing [2024-03-07 123039]" ID="{4B15098C-63F9-468F-85A5-4CC791B57ABB}" ShortID="605136312">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Dragon" ID="{02146C67-B082-4B3D-933D-659B5AF9AB22}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dragon_idle_breathing [2024-03-07 123039]" ID="{A828F95D-5DF3-45D0-8BEC-0E0B57F37344}">
 									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105524].wav</AudioFile>
+									<AudioFile>Dragon_idle_breathing [2024-03-07 123039].wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="676058530"/>
+										<MediaID ID="966594097"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+										<CustomState Name="" ID="{3B685725-E419-4B6B-BB18-E66DF4002801}" ShortID="575860822">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+										<CustomState Name="" ID="{8497D679-212B-442E-B6C1-4B0A120BF223}" ShortID="384096303"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105524]" ID="{C6B24D23-4455-4C73-BAF9-FEB21D7AB129}" Platform="Linked"/>
+								<ActiveSource Name="Dragon_idle_breathing [2024-03-07 123039]" ID="{A828F95D-5DF3-45D0-8BEC-0E0B57F37344}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Base [2024-03-07 105528]" ID="{2F3BFD5B-70EB-4F3D-AD0F-9AACC4F32585}" ShortID="321178612">
+						<Sound Name="Dragon_Rage_breathing [2024-03-07 123039]_01" ID="{CC2EFF97-6067-48BA-9288-9352C9C29451}" ShortID="273761845">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Dragon" ID="{02146C67-B082-4B3D-933D-659B5AF9AB22}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
 								</Reference>
@@ -45,328 +2444,63 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105528]" ID="{79718AEC-AED7-481F-BED1-D02A131A24E8}">
+								<AudioFileSource Name="BRS_Creature_Large_Breaths_Grunty_1 [2024-03-07 130124]" ID="{C24E7383-AC2B-4594-B305-0199C7831C59}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+									</ReferenceList>
 									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105528].wav</AudioFile>
+									<AudioFile>BRS_Creature_Large_Breaths_Grunty_1 [2024-03-07 130124].wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1019567022"/>
+										<MediaID ID="570091035"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+										<CustomState Name="" ID="{838955B9-0A9E-4EFB-A167-A8F3F0354039}" ShortID="977110776"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+										<CustomState Name="" ID="{89B1B444-F4EB-4B67-8110-33A4782B876F}" ShortID="804541443">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105528]" ID="{79718AEC-AED7-481F-BED1-D02A131A24E8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105532]" ID="{6E9F92FD-52C8-4C58-9DBF-5BF505937AE3}" ShortID="103458154">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105532]" ID="{A34363C8-486E-491F-A408-164B048C3514}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105532].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1068170247"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105532]" ID="{A34363C8-486E-491F-A408-164B048C3514}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105538]" ID="{A1DADDA0-7547-43BA-880D-B5C09375D169}" ShortID="982845557">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105538]" ID="{9AE48C91-1D1A-437D-941C-7716A9C7CA35}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105538].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1019518197"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105538]" ID="{9AE48C91-1D1A-437D-941C-7716A9C7CA35}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105541]" ID="{9BF3B44F-2993-4630-9599-CB044EB59244}" ShortID="1062767290">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105541]" ID="{73F506C3-974F-404D-9EE7-A36E4CE3CEFA}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105541].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1055529668"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105541]" ID="{73F506C3-974F-404D-9EE7-A36E4CE3CEFA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105544]" ID="{CAB7BC50-75CC-43AB-9BEE-49905279FB89}" ShortID="741255252">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105544]" ID="{FA851608-8981-4B51-ABE5-D0C3863C8595}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105544].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="214290250"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105544]" ID="{FA851608-8981-4B51-ABE5-D0C3863C8595}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105549]" ID="{12473C98-A58C-4AD1-9494-38F8A5238D77}" ShortID="785784562">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105549]" ID="{48C4A59E-7629-4B4F-9B67-FC0BD0B680A3}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105549].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="470558052"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105549]" ID="{48C4A59E-7629-4B4F-9B67-FC0BD0B680A3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105553]" ID="{A7B234DB-B287-4B4C-A524-235FA5800EEE}" ShortID="279219067">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105553]" ID="{F3DF7855-B15D-4B7E-8A0E-DC01337902FD}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105553].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="582496517"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105553]" ID="{F3DF7855-B15D-4B7E-8A0E-DC01337902FD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105600]" ID="{A4E6E899-AF06-4858-9FE0-7BC3B4DA13DD}" ShortID="221396524">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105600]" ID="{BC147094-5AE1-417B-9308-DFC9A59E88AC}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105600].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="773695152"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105600]" ID="{BC147094-5AE1-417B-9308-DFC9A59E88AC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105603]" ID="{70C65004-4C98-4193-B8CB-4D2401DFE2D0}" ShortID="781067331">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105603]" ID="{66D8784A-A81F-4A8D-8D4A-20A30EBC0069}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105603].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="73362843"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105603]" ID="{66D8784A-A81F-4A8D-8D4A-20A30EBC0069}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105606]" ID="{40A80160-59F1-414D-A431-B87C7C9B562A}" ShortID="852327546">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105606]" ID="{EAEE5066-8033-4125-AAB8-37986F24E577}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105606].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="420474174"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105606]" ID="{EAEE5066-8033-4125-AAB8-37986F24E577}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105610]" ID="{5DBFF56D-AA0D-43AE-A3B6-F8CF6D086F43}" ShortID="396686741">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105610]" ID="{E9EF1F36-C107-49C5-980C-67F4193E44A6}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105610].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="410423748"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105610]" ID="{E9EF1F36-C107-49C5-980C-67F4193E44A6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105613]" ID="{40EAAA59-C751-4CF4-9F76-04B34CCC099A}" ShortID="202640522">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105613]" ID="{4B9FAB18-681D-455B-A6CE-16BAD3577FC3}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105613].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="594186458"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105613]" ID="{4B9FAB18-681D-455B-A6CE-16BAD3577FC3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105618]" ID="{979821D5-14AC-4E10-A555-5640811D3EDD}" ShortID="532463773">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105618]" ID="{D5330413-0475-4097-BD2B-0349FB6FC217}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105618].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="376700689"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105618]" ID="{D5330413-0475-4097-BD2B-0349FB6FC217}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105622]" ID="{C645B6BB-6CEF-42A3-94F3-AAB4E727CFC6}" ShortID="472654164">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105622]" ID="{84247293-CCBC-4B5B-8E35-B07AA9B66EE3}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105622].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="510555197"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105622]" ID="{84247293-CCBC-4B5B-8E35-B07AA9B66EE3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Base [2024-03-07 105625]" ID="{218286C1-0A05-45C3-89DB-D6EA729B6243}" ShortID="671276636">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Base [2024-03-07 105625]" ID="{E6F60940-C649-4AE7-926B-72EE47E00972}">
-									<Language>SFX</Language>
-									<AudioFile>Base [2024-03-07 105625].wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1006133516"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Base [2024-03-07 105625]" ID="{E6F60940-C649-4AE7-926B-72EE47E00972}" Platform="Linked"/>
+								<ActiveSource Name="BRS_Creature_Large_Breaths_Grunty_1 [2024-03-07 130124]" ID="{C24E7383-AC2B-4594-B305-0199C7831C59}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-				</RandomSequenceContainer>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+								<CustomState Name="" ID="{3529364F-29D6-4859-A0E8-B5F7DCB2C5E5}" ShortID="363364470"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+								<CustomState Name="" ID="{4E02E0C7-C1A7-4475-9B5C-CA74F8C39511}" ShortID="941556699"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

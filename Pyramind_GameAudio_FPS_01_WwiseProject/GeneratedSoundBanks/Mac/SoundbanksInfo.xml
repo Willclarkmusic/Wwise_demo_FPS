@@ -9,63 +9,310 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{11FB2401-C78D-9CB4-6076-4E2F73E48D41}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{DEF9F8F7-A3CC-1FF9-CC42-2836A45C10F7}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
-				<File Id="33818316" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan_818F3B66.wem</CachePath>
+				<File Id="11511346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502].wav</ShortName>
+					<CachePath>SFX/ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114502]_818F3B66.wem</CachePath>
 				</File>
-				<File Id="197189029" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Snore_Dinosaur_Creature_Inhale_Exhale_Breath_Airy.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Snore_Dinosaur_Creature_Inhale_Exhale_Breath_Airy_FBC78EF0.wem</CachePath>
+				<File Id="12905105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105610].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105610]_818F3B66.wem</CachePath>
 				</File>
-				<File Id="215510264" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_DGF_fx_foley_footstep_wood_large_creature_slow_walk_heavy_deep_12.wav</ShortName>
-					<CachePath>SFX/ESM_DGF_fx_foley_footstep_wood_large_creature_slow_walk_heavy_deep_12_818F3B66.wem</CachePath>
+				<File Id="21203078" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105549].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105549]_818F3B66.wem</CachePath>
 				</File>
-				<File Id="379716629" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Balor_Monster_Death_2_Supernatural_Creature_Scream_Pain_Groan_Moan.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Balor_Monster_Death_2_Supernatural_Creature_Scream_Pain_Groan_Moan_FBC78EF0.wem</CachePath>
+				<File Id="73362843" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105603].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105603]_818F3B66.wem</CachePath>
 				</File>
-				<File Id="622702324" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FF_BP_110_perc_loop_creek_stomp_footsteps.wav</ShortName>
-					<CachePath>SFX/FF_BP_110_perc_loop_creek_stomp_footsteps_A571E874.wem</CachePath>
+				<File Id="115692306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114409]_818F3B66.wem</CachePath>
 				</File>
-				<File Id="925868787" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FF_HFFX_foley_footstep_creature_teal.wav</ShortName>
-					<CachePath>SFX/FF_HFFX_foley_footstep_creature_teal_818F3B66.wem</CachePath>
+				<File Id="159563247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114407]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="168856352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105606].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105606]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="214290250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105544].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105544]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="221468337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105524].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105524]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="233979971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105532].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105532]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="259600893" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="283992710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105600].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105600]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="308895833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114411]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="348276566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114412]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="359821373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105553].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105553]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="376700689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105618].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105618]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="384940490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105625].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105625]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="410423748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105610].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105610]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="420474174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105606].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105606]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="470558052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105549].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105549]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="496861108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506].wav</ShortName>
+					<CachePath>SFX/ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114506]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="510555197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105622].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105622]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="519080133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105528].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105528]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535485942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105613].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105613]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="552086189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Leather_Armor_Movement_Knight_Walking_Marching_Foley [2024-03-07 114413]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="570091035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BRS_Creature_Large_Breaths_Grunty_1 [2024-03-07 130124].wav</ShortName>
+					<CachePath>SFX/BRS_Creature_Large_Breaths_Grunty_1 [2024-03-07 130124]_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="572342737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114406]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="582496517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105553].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105553]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="594186458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105613].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105613]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="676058530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105524].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105524]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="692728516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105603].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105603]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="704130375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512].wav</ShortName>
+					<CachePath>SFX/ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114512]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="715996633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511].wav</ShortName>
+					<CachePath>SFX/ESM_Battle_Game_Armor_Common_Use_4_Equip_Put_On_Shield_One_Shot [2024-03-07 114511]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="773695152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105600].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105600]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="780280430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507].wav</ShortName>
+					<CachePath>SFX/ESM_Battle_Game_Armor_Common_Pickup_1_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114507]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="802118126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105538].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105538]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="818946958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105618].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105618]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="966594097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dragon_idle_breathing [2024-03-07 123039].wav</ShortName>
+					<CachePath>SFX/Dragon_idle_breathing [2024-03-07 123039]_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="977390148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505].wav</ShortName>
+					<CachePath>SFX/ESM_Battle_Game_Armor_Common_Pickup_2_Slide_Hit_Grab_Movement_One_Shot [2024-03-07 114505]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1006133516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105625].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105625]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1019518197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105538].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105538]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1019567022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105528].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105528]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1050420937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405].wav</ShortName>
+					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1055529668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105541].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105541]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1057490128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105541].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105541]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1059687876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105622].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105622]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1061184809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Step [2024-03-07 105544].wav</ShortName>
+					<CachePath>SFX/Step [2024-03-07 105544]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1068170247" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Base [2024-03-07 105532].wav</ShortName>
+					<CachePath>SFX/Base [2024-03-07 105532]_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3988252362" Name="Play_Dragon_Attack" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8207291" DurationMax="1.8207291">
+				<Event Id="602787445" Name="Play_Dragon_Base" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="33818316"/>
+						<MediaRef Id="570091035"/>
+						<MediaRef Id="966594097"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1262362028" Name="Play_DragonBase" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="630496935" Name="Play_Player_Footstep_L" DurationType="OneShot" DurationMin="0.9375" DurationMax="1.0688485">
 					<MediaRefs>
-						<MediaRef Id="197189029"/>
-						<MediaRef Id="379716629"/>
+						<MediaRef Id="11511346"/>
+						<MediaRef Id="12905105"/>
+						<MediaRef Id="21203078"/>
+						<MediaRef Id="73362843"/>
+						<MediaRef Id="115692306"/>
+						<MediaRef Id="159563247"/>
+						<MediaRef Id="168856352"/>
+						<MediaRef Id="214290250"/>
+						<MediaRef Id="221468337"/>
+						<MediaRef Id="233979971"/>
+						<MediaRef Id="259600893"/>
+						<MediaRef Id="283992710"/>
+						<MediaRef Id="308895833"/>
+						<MediaRef Id="348276566"/>
+						<MediaRef Id="359821373"/>
+						<MediaRef Id="376700689"/>
+						<MediaRef Id="384940490"/>
+						<MediaRef Id="410423748"/>
+						<MediaRef Id="420474174"/>
+						<MediaRef Id="470558052"/>
+						<MediaRef Id="496861108"/>
+						<MediaRef Id="510555197"/>
+						<MediaRef Id="519080133"/>
+						<MediaRef Id="535485942"/>
+						<MediaRef Id="552086189"/>
+						<MediaRef Id="572342737"/>
+						<MediaRef Id="582496517"/>
+						<MediaRef Id="594186458"/>
+						<MediaRef Id="676058530"/>
+						<MediaRef Id="692728516"/>
+						<MediaRef Id="704130375"/>
+						<MediaRef Id="715996633"/>
+						<MediaRef Id="773695152"/>
+						<MediaRef Id="780280430"/>
+						<MediaRef Id="802118126"/>
+						<MediaRef Id="818946958"/>
+						<MediaRef Id="977390148"/>
+						<MediaRef Id="1006133516"/>
+						<MediaRef Id="1019518197"/>
+						<MediaRef Id="1019567022"/>
+						<MediaRef Id="1050420937"/>
+						<MediaRef Id="1055529668"/>
+						<MediaRef Id="1057490128"/>
+						<MediaRef Id="1059687876"/>
+						<MediaRef Id="1061184809"/>
+						<MediaRef Id="1068170247"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1599135344" Name="Play_FootstepsPlayer" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.2529971" DurationMax="0.39768353">
+				<Event Id="630496953" Name="Play_Player_Footstep_R" DurationType="OneShot" DurationMin="0.9375" DurationMax="1.0688485">
 					<MediaRefs>
-						<MediaRef Id="622702324"/>
+						<MediaRef Id="11511346"/>
+						<MediaRef Id="12905105"/>
+						<MediaRef Id="21203078"/>
+						<MediaRef Id="73362843"/>
+						<MediaRef Id="115692306"/>
+						<MediaRef Id="159563247"/>
+						<MediaRef Id="168856352"/>
+						<MediaRef Id="214290250"/>
+						<MediaRef Id="221468337"/>
+						<MediaRef Id="233979971"/>
+						<MediaRef Id="259600893"/>
+						<MediaRef Id="283992710"/>
+						<MediaRef Id="308895833"/>
+						<MediaRef Id="348276566"/>
+						<MediaRef Id="359821373"/>
+						<MediaRef Id="376700689"/>
+						<MediaRef Id="384940490"/>
+						<MediaRef Id="410423748"/>
+						<MediaRef Id="420474174"/>
+						<MediaRef Id="470558052"/>
+						<MediaRef Id="496861108"/>
+						<MediaRef Id="510555197"/>
+						<MediaRef Id="519080133"/>
+						<MediaRef Id="535485942"/>
+						<MediaRef Id="552086189"/>
+						<MediaRef Id="572342737"/>
+						<MediaRef Id="582496517"/>
+						<MediaRef Id="594186458"/>
+						<MediaRef Id="676058530"/>
+						<MediaRef Id="692728516"/>
+						<MediaRef Id="704130375"/>
+						<MediaRef Id="715996633"/>
+						<MediaRef Id="773695152"/>
+						<MediaRef Id="780280430"/>
+						<MediaRef Id="802118126"/>
+						<MediaRef Id="818946958"/>
+						<MediaRef Id="977390148"/>
+						<MediaRef Id="1006133516"/>
+						<MediaRef Id="1019518197"/>
+						<MediaRef Id="1019567022"/>
+						<MediaRef Id="1050420937"/>
+						<MediaRef Id="1055529668"/>
+						<MediaRef Id="1057490128"/>
+						<MediaRef Id="1059687876"/>
+						<MediaRef Id="1061184809"/>
+						<MediaRef Id="1068170247"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1580937561" Name="Play_HeavyFootStep" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.67010415" DurationMax="0.67010415">
-					<MediaRefs>
-						<MediaRef Id="215510264"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4260766568" Name="Play_LightFootstep" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.4701587" DurationMax="1.4701587">
-					<MediaRefs>
-						<MediaRef Id="925868787"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3009817362" Name="Stop_FootstepsPlayer" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{626D37DE-0106-1130-E232-E8C9A38BE45E}">
@@ -113,5 +360,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{38617209-85F0-5040-8978-88AEF3745CD0}</FileHash>
+	<FileHash>{8F365D9F-4543-9E16-536A-8728B4393EB5}</FileHash>
 </SoundBanksInfo>

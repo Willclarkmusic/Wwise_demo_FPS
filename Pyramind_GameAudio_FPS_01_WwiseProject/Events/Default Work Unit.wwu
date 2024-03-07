@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Player_Footstep_L" ID="{A249BF2A-1976-4D99-858F-2962522C02AD}">
+					<ChildrenList>
+						<Action Name="" ID="{3C7673C9-7F74-409B-BE59-7126597D1BAA}" ShortID="204717857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player-Footstep_L" ID="{CA960A56-F216-4BB4-A786-840A75B3C7B6}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Footstep_R" ID="{21D2E9F8-8911-411C-A61F-089C94642A23}">
+					<ChildrenList>
+						<Action Name="" ID="{69300558-7885-42EA-96E9-1C7D052FBFA2}" ShortID="104568171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player-Footstep_R" ID="{8A846544-B5F5-4519-BD0D-338C7F5A7761}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dragon_Base" ID="{E9A6ED9F-239C-42DF-A1B5-BF7ECD49083E}">
+					<ChildrenList>
+						<Action Name="" ID="{3E27A571-A289-4F26-BE6C-ECD23256771E}" ShortID="517954456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragon_Base" ID="{F6A0A050-654C-46AA-B1E8-27EFCDA2701E}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

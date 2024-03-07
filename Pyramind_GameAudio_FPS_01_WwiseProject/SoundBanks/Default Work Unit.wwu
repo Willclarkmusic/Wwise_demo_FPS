@@ -4,7 +4,11 @@
 		<WorkUnit Name="Default Work Unit" ID="{89431AFA-4E25-4692-9318-F8C78DF1F485}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="MainSoundBank" ID="{EE0657A7-C03E-4968-B637-1D1B31A71D29}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Player_Footstep_R" ID="{21D2E9F8-8911-411C-A61F-089C94642A23}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dragon_Base" ID="{E9A6ED9F-239C-42DF-A1B5-BF7ECD49083E}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Footstep_L" ID="{A249BF2A-1976-4D99-858F-2962522C02AD}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
