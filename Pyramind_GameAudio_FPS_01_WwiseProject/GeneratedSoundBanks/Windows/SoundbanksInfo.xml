@@ -9,63 +9,120 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{11FB2401-C78D-9CB4-6076-4E2F73E48D41}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{5E3395AE-D979-5054-23E8-4093F435F4E2}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
-				<File Id="33818316" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan_818F3B66.wem</CachePath>
+				<File Id="58182917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-32.R_818F3B66.wem</CachePath>
 				</File>
-				<File Id="197189029" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Snore_Dinosaur_Creature_Inhale_Exhale_Breath_Airy.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Snore_Dinosaur_Creature_Inhale_Exhale_Breath_Airy_FBC78EF0.wem</CachePath>
+				<File Id="70925628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-04.R_818F3B66.wem</CachePath>
 				</File>
-				<File Id="215510264" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_DGF_fx_foley_footstep_wood_large_creature_slow_walk_heavy_deep_12.wav</ShortName>
-					<CachePath>SFX/ESM_DGF_fx_foley_footstep_wood_large_creature_slow_walk_heavy_deep_12_818F3B66.wem</CachePath>
+				<File Id="90629144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-28.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-28.L_818F3B66.wem</CachePath>
 				</File>
-				<File Id="379716629" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Balor_Monster_Death_2_Supernatural_Creature_Scream_Pain_Groan_Moan.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Balor_Monster_Death_2_Supernatural_Creature_Scream_Pain_Groan_Moan_FBC78EF0.wem</CachePath>
+				<File Id="124863495" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-36.R_818F3B66.wem</CachePath>
 				</File>
-				<File Id="622702324" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FF_BP_110_perc_loop_creek_stomp_footsteps.wav</ShortName>
-					<CachePath>SFX/FF_BP_110_perc_loop_creek_stomp_footsteps_A571E874.wem</CachePath>
+				<File Id="237179215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-37.L_818F3B66.wem</CachePath>
 				</File>
-				<File Id="925868787" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FF_HFFX_foley_footstep_creature_teal.wav</ShortName>
-					<CachePath>SFX/FF_HFFX_foley_footstep_creature_teal_818F3B66.wem</CachePath>
+				<File Id="294101964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-16.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="401915047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-28.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-28.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="403735055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="447433894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="448541594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-16.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="457414904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-24.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="462463525" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-20.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="511528157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-37.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="540183881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="662443241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-08.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="706538265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="967880729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-24.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="991967829" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-36.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1051188301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-12.R.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-12.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1060516407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-12.L.wav</ShortName>
+					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-12.L_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3988252362" Name="Play_Dragon_Attack" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8207291" DurationMax="1.8207291">
+				<Event Id="1858229710" Name="Player_Footstep_L" DurationType="OneShot" DurationMin="0.18721089" DurationMax="0.5688889">
 					<MediaRefs>
-						<MediaRef Id="33818316"/>
+						<MediaRef Id="90629144"/>
+						<MediaRef Id="237179215"/>
+						<MediaRef Id="403735055"/>
+						<MediaRef Id="447433894"/>
+						<MediaRef Id="448541594"/>
+						<MediaRef Id="457414904"/>
+						<MediaRef Id="462463525"/>
+						<MediaRef Id="662443241"/>
+						<MediaRef Id="991967829"/>
+						<MediaRef Id="1060516407"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1262362028" Name="Play_DragonBase" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="1858229712" Name="Player_Footstep_R" DurationType="OneShot" DurationMin="0.19736962" DurationMax="0.5688889">
 					<MediaRefs>
-						<MediaRef Id="197189029"/>
-						<MediaRef Id="379716629"/>
+						<MediaRef Id="58182917"/>
+						<MediaRef Id="70925628"/>
+						<MediaRef Id="124863495"/>
+						<MediaRef Id="294101964"/>
+						<MediaRef Id="401915047"/>
+						<MediaRef Id="511528157"/>
+						<MediaRef Id="540183881"/>
+						<MediaRef Id="706538265"/>
+						<MediaRef Id="967880729"/>
+						<MediaRef Id="1051188301"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1599135344" Name="Play_FootstepsPlayer" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.2529971" DurationMax="0.39768353">
-					<MediaRefs>
-						<MediaRef Id="622702324"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1580937561" Name="Play_HeavyFootStep" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.67010415" DurationMax="0.67010415">
-					<MediaRefs>
-						<MediaRef Id="215510264"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4260766568" Name="Play_LightFootstep" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.4701587" DurationMax="1.4701587">
-					<MediaRefs>
-						<MediaRef Id="925868787"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3009817362" Name="Stop_FootstepsPlayer" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4E42278E-6B3F-BEDB-269E-4F86D93F4E43}">
@@ -113,5 +170,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B49DD257-BCFA-C472-99FB-86AFB4A88D6A}</FileHash>
+	<FileHash>{056DF92B-6B30-3E38-9736-657DF212ECBD}</FileHash>
 </SoundBanksInfo>

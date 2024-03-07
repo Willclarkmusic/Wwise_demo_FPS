@@ -1,24 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1262362028	Play_DragonBase			\Default Work Unit\Play_DragonBase	
-	1580937561	Play_HeavyFootStep			\Default Work Unit\Play_HeavyFootStep	
-	1599135344	Play_FootstepsPlayer			\Default Work Unit\Play_FootstepsPlayer	
-	3009817362	Stop_FootstepsPlayer			\Default Work Unit\Stop_FootstepsPlayer	
-	3988252362	Play_Dragon_Attack			\Default Work Unit\Play_Dragon_Attack	
-	4260766568	Play_LightFootstep			\Default Work Unit\Play_LightFootstep	
-
-State Group	ID	Name			Wwise Object Path	Notes
-	3420125775	DragonState			\Default Work Unit\DragonState	
-
-State	ID	Name	State Group			Notes
-	748895195	None	DragonState			
-	1942738266	Rage	DragonState			
-	2799695215	Patrolling	DragonState			
+	1858229710	Player_Footstep_L			\Default Work Unit\Player_Footstep_L	
+	1858229712	Player_Footstep_R			\Default Work Unit\Player_Footstep_R	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	33818316	Dragon_Attack	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\Pyramind_GameAudio_FPS_01\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragon\Dragon_Attack		174886
-	197189029	IdleLoop	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\Pyramind_GameAudio_FPS_01\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Snore_Dinosaur_Creature_Inhale_Exhale_Breath_Airy_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragon\DragonBase\IdleLoop		630808
-	215510264	HeavyFootStep	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\Pyramind_GameAudio_FPS_01\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\ESM_DGF_fx_foley_footstep_wood_large_creature_slow_walk_heavy_deep_12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragon\HeavyFootStep		128756
-	379716629	RageLoop	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\Pyramind_GameAudio_FPS_01\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\ESM_One_Shot_Vocal_Balor_Monster_Death_2_Supernatural_Creature_Scream_Pain_Groan_Moan_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragon\DragonBase\RageLoop		280510
-	622702324	FootstepsPlayer	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\Pyramind_GameAudio_FPS_01\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\FF_BP_110_perc_loop_creek_stomp_footsteps_A571E874.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragon\FootstepsPlayer		58140
-	925868787	LightFootstep	C:\Users\BB8\Desktop\Pyramind\VideoGameAudio\Pyramind_GameAudio_FPS_01\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\FF_HFFX_foley_footstep_creature_teal_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dragon\LightFootstep		259432
+	58182917	FNF_DSDZ_foley_footsteps_rocks_crunchy-32_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-32_R		30816
+	70925628	FNF_DSDZ_foley_footsteps_rocks_crunchy-04_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-04_R		18016
+	90629144	FNF_DSDZ_foley_footsteps_rocks_crunchy-28_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-28.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-28_L		50272
+	124863495	FNF_DSDZ_foley_footsteps_rocks_crunchy-36_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-36_R		28768
+	237179215	FNF_DSDZ_foley_footsteps_rocks_crunchy-37_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-37_L		31840
+	294101964	FNF_DSDZ_foley_footsteps_rocks_crunchy-16_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-16_R		24672
+	401915047	FNF_DSDZ_foley_footsteps_rocks_crunchy-28_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-28.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-28_R		50272
+	403735055	FNF_DSDZ_foley_footsteps_rocks_crunchy-32_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-32_L		30816
+	447433894	FNF_DSDZ_foley_footsteps_rocks_crunchy-04_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-04_L		16608
+	448541594	FNF_DSDZ_foley_footsteps_rocks_crunchy-16_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-16_L		24672
+	457414904	FNF_DSDZ_foley_footsteps_rocks_crunchy-24_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-24_L		22624
+	462463525	FNF_DSDZ_foley_footsteps_rocks_crunchy-20_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-20_L		26208
+	511528157	FNF_DSDZ_foley_footsteps_rocks_crunchy-37_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-37_R		31840
+	540183881	FNF_DSDZ_foley_footsteps_rocks_crunchy-08_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-08_R		17504
+	662443241	FNF_DSDZ_foley_footsteps_rocks_crunchy-08_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-08_L		16992
+	706538265	FNF_DSDZ_foley_footsteps_rocks_crunchy-20_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-20_R		26208
+	967880729	FNF_DSDZ_foley_footsteps_rocks_crunchy-24_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-24_R		22624
+	991967829	FNF_DSDZ_foley_footsteps_rocks_crunchy-36_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-36_L		28768
+	1051188301	FNF_DSDZ_foley_footsteps_rocks_crunchy-12_R	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-12.R_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_R\FNF_DSDZ_foley_footsteps_rocks_crunchy-12_R		23648
+	1060516407	FNF_DSDZ_foley_footsteps_rocks_crunchy-12_L	D:\GitHub\Pyramind_GA_FPS\Pyramind_GameAudio_FPS_01_WwiseProject\.cache\Mac\SFX\Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-12.L_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps_L\FNF_DSDZ_foley_footsteps_rocks_crunchy-12_L		21088
 
