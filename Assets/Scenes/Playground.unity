@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
   m_Sun: {fileID: 2114283754330233425}
-  m_IndirectSpecularColor: {r: 0.029152213, g: 0.064445764, b: 0.12695098, a: 1}
+  m_IndirectSpecularColor: {r: 0.029152133, g: 0.06444553, b: 0.12695043, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -40729,7 +40729,8 @@ MonoBehaviour:
   dragonBaseSounds:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 10b7e739f09be472494b613fda56c12e,
+      type: 2}
   stopDragonBaseSounds:
     idInternal: 0
     valueGuidInternal: 
@@ -49561,12 +49562,12 @@ MonoBehaviour:
   footstepSoundLeft:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c731f1a116fed8445903d6b16a65d92c,
+    WwiseObjectReference: {fileID: 11400000, guid: 3022f4ee6f4e9469eba5523fdff1c810,
       type: 2}
   footstepSoundRight:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c731f1a116fed8445903d6b16a65d92c,
+    WwiseObjectReference: {fileID: 11400000, guid: fde9b03d98d07498499829cb02444ba8,
       type: 2}
   jumpSound:
     idInternal: 0

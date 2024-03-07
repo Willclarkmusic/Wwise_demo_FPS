@@ -1,6 +1,717 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Player-Footstep-R" ID="{A76DE540-0F7E-428F-A5DE-40D03A729AB6}" ShortID="856398897">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{887F0DAF-84E8-4794-8C0E-00128EE61329}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Step_R" ID="{E83DC333-9767-449E-BB72-AF06AA649667}" ShortID="601268190">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{41CDD98E-EDFF-4161-A01A-AFEF36E6220A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="250"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-04_R" ID="{A8AF07DE-6D10-43A9-9DC9-828CD91F447F}" ShortID="777534551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-04_R" ID="{7D4648E0-7C0D-4E6D-9421-88D912F6D31B}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609307186"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-04_R" ID="{7D4648E0-7C0D-4E6D-9421-88D912F6D31B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-08_R" ID="{4679C6B5-DA11-40A8-BE0F-78A8DCB43627}" ShortID="788836085">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-08_R" ID="{2CF93760-7FFF-47CB-931B-054E84D34110}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848935093"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-08_R" ID="{2CF93760-7FFF-47CB-931B-054E84D34110}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-12_R" ID="{5A15692D-7D6A-41B2-A504-B571D7D33D13}" ShortID="621900350">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-12_R" ID="{04BCF9DA-782C-4744-A706-7FC125BBE606}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-12.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="963713112"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-12_R" ID="{04BCF9DA-782C-4744-A706-7FC125BBE606}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-16_R" ID="{F1E7BEB4-F8F8-4415-99DC-16C378DAC0AC}" ShortID="273543041">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-16_R" ID="{F253C684-1E27-4169-A55E-037B2CE0E4DF}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546808933"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-16_R" ID="{F253C684-1E27-4169-A55E-037B2CE0E4DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-20_R" ID="{DE8C61CB-ED39-47C6-AC85-2619F73EC5E5}" ShortID="432794476">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-20_R" ID="{344E6D1F-7956-4BF6-BEE1-0BF84A87DBA7}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="783578843"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-20_R" ID="{344E6D1F-7956-4BF6-BEE1-0BF84A87DBA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-24_R" ID="{4E308A69-946A-4E19-9655-03FBB19E5B37}" ShortID="432402500">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-24_R" ID="{8342F1C2-C84C-4655-B4EA-CCCE3D1D2DC0}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660131341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-24_R" ID="{8342F1C2-C84C-4655-B4EA-CCCE3D1D2DC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-28_R" ID="{61519119-1EA0-477D-BF81-2C7D6691EEF3}" ShortID="718047072">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-28_R" ID="{6F91C57D-AB54-4281-8027-D4647F1A6608}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-28.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="480743513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-28_R" ID="{6F91C57D-AB54-4281-8027-D4647F1A6608}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-32_R" ID="{6B2749B9-25EE-48B1-83DA-1358633DB675}" ShortID="243540650">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-32_R" ID="{6485897F-A11E-49D1-A2AB-B923C41FC2A3}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267161446"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-32_R" ID="{6485897F-A11E-49D1-A2AB-B923C41FC2A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-36_R" ID="{585A0BD2-F1FA-46F6-9926-C956EB7EF1B3}" ShortID="145526507">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-36_R" ID="{8AC219BF-568D-4D18-8631-235E2A7B8E10}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="398279357"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-36_R" ID="{8AC219BF-568D-4D18-8631-235E2A7B8E10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-37_R" ID="{9FDE98E5-AB58-44A2-A8AE-02F729E81A67}" ShortID="590498706">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-37_R" ID="{C9DDCDD9-E6C4-453F-B3B3-2515875BF9CC}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="806226246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-37_R" ID="{C9DDCDD9-E6C4-453F-B3B3-2515875BF9CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{317B5B1A-8DEF-4B8C-847D-33D00B463AA9}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="15"/>
+										<Property Name="PanY" Type="Real64" Value="15"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{F5AF8E42-4084-4402-BD5F-376D5112141A}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="23"/>
+								<Property Name="PanY" Type="Real64" Value="27"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+				</BlendContainer>
+				<BlendContainer Name="Player-Footstep-L" ID="{1B22AE03-EFA6-4C1E-881E-2CDFB977D4C8}" ShortID="200960953">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Step_L" ID="{169416CD-C9E4-4349-8DB8-6E14527DEABE}" ShortID="96134450">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{913B809B-3786-4665-81ED-C60344CE443C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="250"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-04_L" ID="{0F6DE4B0-BD56-47EB-930F-3F6569855BF2}" ShortID="573434445">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-04_L" ID="{7092A62D-9BA9-4F81-AF06-8BC780B69755}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="413109476"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-04_L" ID="{7092A62D-9BA9-4F81-AF06-8BC780B69755}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-08_L" ID="{D41FEF59-CE06-461D-8109-295A3D7501E6}" ShortID="831558646">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-08_L" ID="{6EB1F22C-CECE-4F63-9C39-0B5BBF9F82ED}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="906733076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-08_L" ID="{6EB1F22C-CECE-4F63-9C39-0B5BBF9F82ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-12_L" ID="{6FC5DD62-CDA6-4658-BEFC-EFAB39DA1FB8}" ShortID="348694242">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-12_L" ID="{C29A39A7-9CAE-46A6-A5F3-2C3F41FC1CB7}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-12.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="912805033"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-12_L" ID="{C29A39A7-9CAE-46A6-A5F3-2C3F41FC1CB7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-16_L" ID="{90B9D9E2-1E9F-4DBC-9F87-D06FA0202C71}" ShortID="814232348">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-16_L" ID="{536235B6-F6D1-41DC-A0DF-E39E067FD78B}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="574325411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-16_L" ID="{536235B6-F6D1-41DC-A0DF-E39E067FD78B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-20_L" ID="{9CACF705-A830-492A-9A5A-DDB214FA7D9F}" ShortID="572801636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-20_L" ID="{BCED69C6-0FDC-401B-B35D-30FA2A612E38}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="910652040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-20_L" ID="{BCED69C6-0FDC-401B-B35D-30FA2A612E38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-24_L" ID="{D01242DD-9CF7-464F-9CB7-871758EB248E}" ShortID="273858404">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-24_L" ID="{9D77F564-272F-4DB3-8CFF-149E089F9804}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="881860423"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-24_L" ID="{9D77F564-272F-4DB3-8CFF-149E089F9804}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-28_L" ID="{134D147A-6C29-4D9F-BC0C-30EE674B660F}" ShortID="1024468555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-28_L" ID="{C6397997-07B7-498B-AFC5-8E5103C17CCC}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-28.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="409574763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-28_L" ID="{C6397997-07B7-498B-AFC5-8E5103C17CCC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-32_L" ID="{8FD59241-9418-461D-974A-2666E8439E1C}" ShortID="161962372">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-32_L" ID="{D2360C34-82A3-470C-877E-52429373C48C}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162905952"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-32_L" ID="{D2360C34-82A3-470C-877E-52429373C48C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-36_L" ID="{51C89BE7-35D7-4546-91A1-98B732C71489}" ShortID="761712821">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-36_L" ID="{A4387CCF-C06B-409D-BC3D-6591CCAE0F6D}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="932863177"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-36_L" ID="{A4387CCF-C06B-409D-BC3D-6591CCAE0F6D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-37_L" ID="{94C29BBD-8CEC-4883-9618-5052A8F85D9A}" ShortID="180596078">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-37_L" ID="{C524A448-24CB-47E0-923B-3B211645CB19}">
+											<Language>SFX</Language>
+											<AudioFile>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299120208"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-37_L" ID="{C524A448-24CB-47E0-923B-3B211645CB19}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{C632A63D-DDDC-4562-A429-923218916835}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-15"/>
+										<Property Name="PanY" Type="Real64" Value="15"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{4BEB7E53-BC83-4576-9938-AE8E691D0568}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-23"/>
+								<Property Name="PanY" Type="Real64" Value="27"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+				</BlendContainer>
+				<BlendContainer Name="Dragon_Base" ID="{D2252E7B-1DCB-464B-8853-1FBC9B7B4841}" ShortID="1027140601">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dragon rage breathing placeholder" ID="{FB8578E5-1535-4DE3-A67A-A6B4FD947A9C}" ShortID="839675891">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan" ID="{F8329C7E-559A-40E9-BF3C-76B0BFF8C3EB}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="28555664"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+										<CustomState Name="" ID="{E59D8DC8-AE48-4B73-84E6-1903B1329B79}" ShortID="633538292"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+										<CustomState Name="" ID="{B529424B-B082-43B0-88E8-822755568AB2}" ShortID="459419743">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan" ID="{F8329C7E-559A-40E9-BF3C-76B0BFF8C3EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragon idle breathing placeholder" ID="{62CC4232-AA66-4878-BC2A-C153628C12BC}" ShortID="574468775">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BRS_Feet_Grass_Soft_Walking_Various" ID="{06568BC0-CF85-4140-A36A-E4DC16F3AB73}">
+									<Language>SFX</Language>
+									<AudioFile>BRS_Feet_Grass_Soft_Walking_Various.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="278270202"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+										<CustomState Name="" ID="{75A6B234-D826-405E-A4E2-B6D3562EF3F2}" ShortID="712924059">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+										<CustomState Name="" ID="{409AEC74-D9A3-4E22-970B-EB7F1AE3346E}" ShortID="439323034"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="BRS_Feet_Grass_Soft_Walking_Various" ID="{06568BC0-CF85-4140-A36A-E4DC16F3AB73}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
