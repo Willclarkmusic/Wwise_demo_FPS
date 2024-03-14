@@ -12,6 +12,20 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{27C7843D-07A6-4A84-9F30-1339F8187CC8}" ShortID="539849732">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step_L_Base" ID="{7525303D-E439-48BE-99CC-D10D18072CB5}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C168B66E-3D81-4091-8BD8-D4183740D160}" ShortID="6290897">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step_L_Armor" ID="{547D9136-8FAD-4BE3-BEB3-70884AD03E6B}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Player_Footsep_R" ID="{EAEC141B-0EC4-4B83-8C55-8C8C5FFA6817}">
@@ -20,6 +34,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Step_R" ID="{E83DC333-9767-449E-BB72-AF06AA649667}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{838D2D0F-79A8-4577-AFD1-D2EA622C3BFA}" ShortID="895222882">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step_R_Base" ID="{EE7FABF4-811F-4720-8917-8143C7AEBC70}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5DC9378F-EE97-41C2-9D1C-33DA22FD3151}" ShortID="559917751">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step_R_Armor" ID="{21AF7808-9E27-4ADA-B4F5-8AB07DBA01EF}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

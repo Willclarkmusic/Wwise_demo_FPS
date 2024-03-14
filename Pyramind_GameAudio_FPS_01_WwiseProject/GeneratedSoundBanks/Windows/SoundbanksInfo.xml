@@ -9,10 +9,34 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{4CAA0BAF-0E51-1CAE-68D3-91D1305FD0CB}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{1479E3C8-31DA-1281-DFC8-04AA724A7954}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
+				<File Id="28555664" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</ShortName>
+					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="34240644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_08.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_08.L.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="44272144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_02.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_02.L.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="130809785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_01.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_01.R.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="154772864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_09.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_09.L.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="160493586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_08.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_08.R.cm-St_818F3B66.wem</CachePath>
+				</File>
 				<File Id="162905952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L_818F3B66.wem</CachePath>
@@ -29,6 +53,14 @@
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-37.L_818F3B66.wem</CachePath>
 				</File>
+				<File Id="304579749" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_07.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_07.R.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="381822101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_05.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_05.R.cm-St_818F3B66.wem</CachePath>
+				</File>
 				<File Id="398279357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-36.R_818F3B66.wem</CachePath>
@@ -41,9 +73,17 @@
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L_818F3B66.wem</CachePath>
 				</File>
+				<File Id="473774633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_07.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_07.L.cm-St_818F3B66.wem</CachePath>
+				</File>
 				<File Id="480743513" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-28.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-28.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="499723518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_09.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_09.R.cm-St_818F3B66.wem</CachePath>
 				</File>
 				<File Id="546808933" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.R.wav</ShortName>
@@ -53,21 +93,49 @@
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-16.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-16.L_818F3B66.wem</CachePath>
 				</File>
+				<File Id="582097372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_06.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_06.R.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="589645575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps base.wav</ShortName>
+					<CachePath>SFX/footsteps base_63111BAC.wem</CachePath>
+				</File>
 				<File Id="609307186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-04.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="626841887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_04.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_04.L.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="653133887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps base.wav</ShortName>
+					<CachePath>SFX/footsteps base_674FC0A8.wem</CachePath>
 				</File>
 				<File Id="660131341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-24.R_818F3B66.wem</CachePath>
 				</File>
+				<File Id="663802203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_04.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_04.R.cm-St_818F3B66.wem</CachePath>
+				</File>
 				<File Id="783578843" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R_818F3B66.wem</CachePath>
 				</File>
+				<File Id="790461087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_02.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_02.R.cm-St_818F3B66.wem</CachePath>
+				</File>
 				<File Id="806226246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-37.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="814855096" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_10.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_10.R.cm-St_818F3B66.wem</CachePath>
 				</File>
 				<File Id="848935093" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R.wav</ShortName>
@@ -76,6 +144,10 @@
 				<File Id="881860423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-24.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="889305147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_10.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_10.L.cm-St_818F3B66.wem</CachePath>
 				</File>
 				<File Id="906733076" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.L.wav</ShortName>
@@ -93,43 +165,86 @@
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-36.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-36.L_818F3B66.wem</CachePath>
 				</File>
+				<File Id="952665270" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_01.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_01.L.cm-St_818F3B66.wem</CachePath>
+				</File>
 				<File Id="963713112" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-12.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-12.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="978990924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_06.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_06.L.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="984218682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_03.R.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_03.R.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1002755762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_03.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_03.L.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1051505285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>armor_05.L.cm-St.wav</ShortName>
+					<CachePath>SFX/armor_05.L.cm-St_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="602787445" Name="Play_Dragon_Base" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="28555664"/>
 						<MediaRef Id="278270202"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1368704831" Name="Play_Player_Footsep_R" DurationType="OneShot" DurationMin="0.17083062" DurationMax="0.65726733">
+				<Event Id="1368704831" Name="Play_Player_Footsep_R" DurationType="OneShot" DurationMin="5.3946466" DurationMax="5.425897">
 					<MediaRefs>
+						<MediaRef Id="130809785"/>
+						<MediaRef Id="160493586"/>
 						<MediaRef Id="267161446"/>
+						<MediaRef Id="304579749"/>
+						<MediaRef Id="381822101"/>
 						<MediaRef Id="398279357"/>
 						<MediaRef Id="480743513"/>
+						<MediaRef Id="499723518"/>
 						<MediaRef Id="546808933"/>
+						<MediaRef Id="582097372"/>
 						<MediaRef Id="609307186"/>
+						<MediaRef Id="653133887"/>
 						<MediaRef Id="660131341"/>
+						<MediaRef Id="663802203"/>
 						<MediaRef Id="783578843"/>
+						<MediaRef Id="790461087"/>
 						<MediaRef Id="806226246"/>
+						<MediaRef Id="814855096"/>
 						<MediaRef Id="848935093"/>
 						<MediaRef Id="963713112"/>
+						<MediaRef Id="984218682"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="630496935" Name="Play_Player_Footstep_L" DurationType="OneShot" DurationMin="0.16203786" DurationMax="0.65726733">
+				<Event Id="630496935" Name="Play_Player_Footstep_L" DurationType="OneShot" DurationMin="5.3946466" DurationMax="5.425897">
 					<MediaRefs>
+						<MediaRef Id="34240644"/>
+						<MediaRef Id="44272144"/>
+						<MediaRef Id="154772864"/>
 						<MediaRef Id="162905952"/>
 						<MediaRef Id="299120208"/>
 						<MediaRef Id="409574763"/>
 						<MediaRef Id="413109476"/>
+						<MediaRef Id="473774633"/>
 						<MediaRef Id="574325411"/>
+						<MediaRef Id="589645575"/>
+						<MediaRef Id="626841887"/>
 						<MediaRef Id="881860423"/>
+						<MediaRef Id="889305147"/>
 						<MediaRef Id="906733076"/>
 						<MediaRef Id="910652040"/>
 						<MediaRef Id="912805033"/>
 						<MediaRef Id="932863177"/>
+						<MediaRef Id="952665270"/>
+						<MediaRef Id="978990924"/>
+						<MediaRef Id="1002755762"/>
+						<MediaRef Id="1051505285"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -179,5 +294,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C2382332-5BB0-1861-4A67-C10198008C3E}</FileHash>
+	<FileHash>{C0DB64EF-B9EF-A1C9-8652-52F8DBBAA608}</FileHash>
 </SoundBanksInfo>

@@ -40,6 +40,21 @@
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4453CFE8-93E4-4030-B3B9-0110E6006B80}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -280,6 +295,314 @@
 								</Panner>
 							</PositioningInfo>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Step_R_Base" ID="{EE7FABF4-811F-4720-8917-8143C7AEBC70}" ShortID="1034913419">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="footsteps base" ID="{91AFB261-EECB-4253-B032-814F7AD46281}" ShortID="408047376">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps base" ID="{28377ED9-B90D-4CC3-80AD-63E69DB39552}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.409282700421942"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.409282700421942"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footsteps base.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653133887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps base" ID="{28377ED9-B90D-4CC3-80AD-63E69DB39552}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Step_R_Armor" ID="{21AF7808-9E27-4ADA-B4F5-8AB07DBA01EF}" ShortID="320458985">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{94272558-D365-4446-8FDE-0E8A11DB7166}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ED6A58F2-AFC1-42EF-BFDB-A6C66905F6CF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="armor_01_R_cm-St" ID="{8F9E1B37-9BA1-4028-9884-FF9A733AE628}" ShortID="491649490">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_01_R_cm-St" ID="{D8465089-3850-4C7C-BF8F-D5F1A16FCFEA}">
+											<Language>SFX</Language>
+											<AudioFile>armor_01.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="130809785"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_01_R_cm-St" ID="{D8465089-3850-4C7C-BF8F-D5F1A16FCFEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_02_R_cm-St" ID="{CCB11E88-6070-43CA-9942-C3A8FF94A427}" ShortID="244361023">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_02_R_cm-St" ID="{F97D5FE2-B97D-41E6-9E57-3A3143AE7494}">
+											<Language>SFX</Language>
+											<AudioFile>armor_02.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="790461087"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_02_R_cm-St" ID="{F97D5FE2-B97D-41E6-9E57-3A3143AE7494}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_03_R_cm-St" ID="{96E58018-2F56-4792-995D-5D64B6ED5743}" ShortID="532621624">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_03_R_cm-St" ID="{EF1CE60A-F5E6-473D-8198-7CAD85206A94}">
+											<Language>SFX</Language>
+											<AudioFile>armor_03.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="984218682"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_03_R_cm-St" ID="{EF1CE60A-F5E6-473D-8198-7CAD85206A94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_04_R_cm-St" ID="{018C1340-F35D-4632-82CD-7923B5FB925B}" ShortID="897200918">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_04_R_cm-St" ID="{2758C735-FFB3-42E1-9C8C-E5E33B9E1DE1}">
+											<Language>SFX</Language>
+											<AudioFile>armor_04.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="663802203"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_04_R_cm-St" ID="{2758C735-FFB3-42E1-9C8C-E5E33B9E1DE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_05_R_cm-St" ID="{3C5D25A3-7B52-47D8-A9FF-CF257A68153E}" ShortID="137383161">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_05_R_cm-St" ID="{EC3FD61A-F49D-4007-A847-413735A3F73C}">
+											<Language>SFX</Language>
+											<AudioFile>armor_05.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="381822101"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_05_R_cm-St" ID="{EC3FD61A-F49D-4007-A847-413735A3F73C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_06_R_cm-St" ID="{CE43597A-B6DF-4D66-BC91-31A7BD267455}" ShortID="209119699">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_06_R_cm-St" ID="{2EBC7322-664A-4F03-B41F-2DA7E33C6936}">
+											<Language>SFX</Language>
+											<AudioFile>armor_06.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582097372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_06_R_cm-St" ID="{2EBC7322-664A-4F03-B41F-2DA7E33C6936}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_07_R_cm-St" ID="{58A438AE-A9F0-49D2-88C5-BD625A93D341}" ShortID="922188571">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_07_R_cm-St" ID="{CEA90F69-3173-4E7A-BA41-5AD0DC17DB53}">
+											<Language>SFX</Language>
+											<AudioFile>armor_07.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="304579749"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_07_R_cm-St" ID="{CEA90F69-3173-4E7A-BA41-5AD0DC17DB53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_08_R_cm-St" ID="{50C1967B-4E52-4250-8BB8-3FD88DC062A9}" ShortID="851682383">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_08_R_cm-St" ID="{EB1B77B4-93F1-40D4-848C-C6D322BC4033}">
+											<Language>SFX</Language>
+											<AudioFile>armor_08.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="160493586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_08_R_cm-St" ID="{EB1B77B4-93F1-40D4-848C-C6D322BC4033}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_09_R_cm-St" ID="{936BFA56-2AC9-414B-AC9B-D8DC8A4F8B61}" ShortID="786934040">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_09_R_cm-St" ID="{60427633-A7DB-4FAA-A738-16EFDBCC9E00}">
+											<Language>SFX</Language>
+											<AudioFile>armor_09.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="499723518"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_09_R_cm-St" ID="{60427633-A7DB-4FAA-A738-16EFDBCC9E00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_10_R_cm-St" ID="{43A0C2C1-4A2C-4C5A-8D39-86568F241D28}" ShortID="1007181385">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_10_R_cm-St" ID="{61D5B23D-06DC-4AD0-9A08-A11B54F1C56B}">
+											<Language>SFX</Language>
+											<AudioFile>armor_10.R.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="814855096"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_10_R_cm-St" ID="{61D5B23D-06DC-4AD0-9A08-A11B54F1C56B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{F5AF8E42-4084-4402-BD5F-376D5112141A}">
@@ -318,6 +641,21 @@
 								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CE28E44B-F8A0-422E-A1F1-3536C647618C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -329,6 +667,20 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="FNF_DSDZ_foley_footsteps_rocks_crunchy-04_L" ID="{0F6DE4B0-BD56-47EB-930F-3F6569855BF2}" ShortID="573434445">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F4B91E6F-7E0E-4BEC-BEBC-FA3ECB0794B8}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
@@ -557,6 +909,321 @@
 									</PropertyList>
 								</Panner>
 							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Step_L_Base" ID="{7525303D-E439-48BE-99CC-D10D18072CB5}" ShortID="1046545390">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="footsteps base" ID="{482DB2CC-26F3-47CB-8A8A-DCC9B4C54DC3}" ShortID="758849197">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footsteps base" ID="{4670C568-BC58-4BE7-82FE-DA48EC80021B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.506329113924053"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.506329113924053"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>footsteps base.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589645575"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footsteps base" ID="{4670C568-BC58-4BE7-82FE-DA48EC80021B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Step_L_Armor" ID="{547D9136-8FAD-4BE3-BEB3-70884AD03E6B}" ShortID="966301290">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BAB94B74-5AB5-4D35-8344-1C6E5D0E7FB8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2B7832B7-DF1E-4BA2-A622-4767676A74B6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="armor_01_L_cm-St" ID="{15546948-4022-47B6-8B00-21A57A11DAC2}" ShortID="463693433">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_01_L_cm-St" ID="{119988C9-529F-42E0-8127-7942531EE84E}">
+											<Language>SFX</Language>
+											<AudioFile>armor_01.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="952665270"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_01_L_cm-St" ID="{119988C9-529F-42E0-8127-7942531EE84E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_02_L_cm-St" ID="{60EE16EC-8F45-4313-91E6-8EE8EE8D60E0}" ShortID="86478485">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_02_L_cm-St" ID="{943B3460-15C4-4F5A-8323-16815EAD9648}">
+											<Language>SFX</Language>
+											<AudioFile>armor_02.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="44272144"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_02_L_cm-St" ID="{943B3460-15C4-4F5A-8323-16815EAD9648}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_03_L_cm-St" ID="{F5675298-C3BC-4B48-A62F-4FFDE6E15AC9}" ShortID="675959826">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_03_L_cm-St" ID="{5C8DA960-69B3-4911-9EB3-11FACA6B3AAB}">
+											<Language>SFX</Language>
+											<AudioFile>armor_03.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002755762"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_03_L_cm-St" ID="{5C8DA960-69B3-4911-9EB3-11FACA6B3AAB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_04_L_cm-St" ID="{1F87045E-84C0-401D-8A7E-1BFC88439017}" ShortID="255338594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_04_L_cm-St" ID="{159F96DC-A07C-4A63-A087-EA7936ECA62E}">
+											<Language>SFX</Language>
+											<AudioFile>armor_04.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="626841887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_04_L_cm-St" ID="{159F96DC-A07C-4A63-A087-EA7936ECA62E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_05_L_cm-St" ID="{470F4D1F-AC29-44B0-94DA-222EB63940E6}" ShortID="819737988">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_05_L_cm-St" ID="{9F2F6F47-51C3-4E46-861F-50800248D2CC}">
+											<Language>SFX</Language>
+											<AudioFile>armor_05.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1051505285"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_05_L_cm-St" ID="{9F2F6F47-51C3-4E46-861F-50800248D2CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_06_L_cm-St" ID="{84C0CF36-776A-4FA7-8A45-CB468A15BB7E}" ShortID="459583843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_06_L_cm-St" ID="{462ECCE1-A91D-496F-97E5-FD5129BB184A}">
+											<Language>SFX</Language>
+											<AudioFile>armor_06.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="978990924"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_06_L_cm-St" ID="{462ECCE1-A91D-496F-97E5-FD5129BB184A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_07_L_cm-St" ID="{F0CA8DCB-0DBF-4ACE-83AB-C921C1674921}" ShortID="112023797">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_07_L_cm-St" ID="{A7D9F4B1-F46D-4231-834A-ED4A2C0B7CE2}">
+											<Language>SFX</Language>
+											<AudioFile>armor_07.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="473774633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_07_L_cm-St" ID="{A7D9F4B1-F46D-4231-834A-ED4A2C0B7CE2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_08_L_cm-St" ID="{A2E0A136-26B7-4CA4-A6BE-96F0F0BFB6A7}" ShortID="768672094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_08_L_cm-St" ID="{FF603B16-8A82-46A8-B4D1-5CDE576773AE}">
+											<Language>SFX</Language>
+											<AudioFile>armor_08.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="34240644"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_08_L_cm-St" ID="{FF603B16-8A82-46A8-B4D1-5CDE576773AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_09_L_cm-St" ID="{3DAE2642-F420-44F1-9A29-832455B00CAC}" ShortID="356536680">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_09_L_cm-St" ID="{22E721D9-9D72-47B4-AF3C-023B80A8B3E8}">
+											<Language>SFX</Language>
+											<AudioFile>armor_09.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="154772864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_09_L_cm-St" ID="{22E721D9-9D72-47B4-AF3C-023B80A8B3E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="armor_10_L_cm-St" ID="{0A13E22E-8BEC-4FA6-B77D-CB9829F52940}" ShortID="695309164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="armor_10_L_cm-St" ID="{09218B76-BA5D-4D67-A5BE-F0AC31B463DA}">
+											<Language>SFX</Language>
+											<AudioFile>armor_10.L.cm-St.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="889305147"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="armor_10_L_cm-St" ID="{09218B76-BA5D-4D67-A5BE-F0AC31B463DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 					<PositioningInfo>
