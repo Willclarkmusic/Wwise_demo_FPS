@@ -9,6 +9,115 @@
 							<ObjectRef Name="System" ID="{D0C65DBB-B05C-4D7A-805B-67B2C5D90E2B}" WorkUnitID="{DB8D6FAE-5D75-40D6-A6BB-2952BBA6EE69}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{EF020D31-A7B6-49BE-9526-88ACD9448892}">
+							<ChildrenList>
+								<Bus Name="Env" ID="{37AB748D-EA30-428C-A583-1F7F0745861A}">
+									<ChildrenList>
+										<AuxBus Name="Reverb_Hallway" ID="{8C2B01EF-A28C-455A-B6EB-EE0D63554F9E}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{0C1429C7-2A40-4ADE-A45C-ABCB452726A7}" ShortID="321365412">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Reverb_Hallway_01" ID="{062C16EE-D1E3-4C03-8336-E1FD83327174}" WorkUnitID="{71E35019-373F-496A-A461-F0BF424BBD97}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Player" ID="{DE671FC7-7052-4329-A57F-81B5963787D2}"/>
+								<Bus Name="Dragon" ID="{DC827A61-4482-4C67-9FEF-1448409B5BE6}"/>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5B9AE553-B7E5-40CB-9B83-6097AAF3EF92}" ShortID="328638284">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFXBus" ID="{58C527A7-7BFE-444C-A4E8-BCBDAC9D64B7}" WorkUnitID="{F8A78977-4D11-470F-8EDA-93514BFC3A95}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{D3E31F17-405E-4E62-A07D-D0579F1F81A7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="Music" ID="{EFD4A4A7-3E94-4229-B86D-B7D2C4712EA1}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{05E7DEC4-183A-4979-96E1-E3B8724BD2F7}" ShortID="500525032">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="MusicBus" ID="{1DFE5F95-1E36-4A7E-A9C5-EE83D653B581}" WorkUnitID="{F8A78977-4D11-470F-8EDA-93514BFC3A95}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{2B28A387-8481-4714-B494-2F39829D105E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
 							<Reference>

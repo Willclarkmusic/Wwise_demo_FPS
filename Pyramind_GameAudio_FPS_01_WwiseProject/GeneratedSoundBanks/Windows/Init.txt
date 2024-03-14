@@ -14,9 +14,22 @@ State	ID	Name	State Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	835198467	MasterBus			\Default Work Unit\MasterBus	
+	2886307548	MusicBus			\Default Work Unit\MusicBus	
+	3803850708	SFXBus			\Default Work Unit\SFXBus	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	529726550	Env			\Default Work Unit\Master Audio Bus\SFX\Env	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	2297136520	Dragon			\Default Work Unit\Master Audio Bus\SFX\Dragon	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2201047382	Reverb_Hallway			\Default Work Unit\Master Audio Bus\SFX\Env\Reverb_Hallway	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2218430628	Reverb_Hallway_01	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

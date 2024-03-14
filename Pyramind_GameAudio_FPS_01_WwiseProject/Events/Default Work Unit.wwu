@@ -64,6 +64,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambience" ID="{3E0BDE96-85FF-4E1F-B9A5-66BF4D037821}">
+					<ChildrenList>
+						<Action Name="" ID="{A3AD4476-71B4-42AA-8119-E71B398445FF}" ShortID="44750719">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{1AE23273-04A2-4ADC-A90F-B083B3783220}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Lvl1" ID="{2014038F-F96A-4C6D-9C74-EAA708D45561}">
+					<ChildrenList>
+						<Action Name="" ID="{563D5024-CB7B-411C-BF0C-A39ABCA8D589}" ShortID="993102061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Lvl1_A" ID="{F0D9B6D2-1C4A-4442-8366-72A58F054094}" WorkUnitID="{C680A2D2-37D8-42AD-BE02-9D4D928474AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

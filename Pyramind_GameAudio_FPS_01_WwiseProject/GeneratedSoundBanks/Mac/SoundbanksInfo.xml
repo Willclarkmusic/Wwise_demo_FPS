@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{1479E3C8-31DA-1281-DFC8-04AA724A7954}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{AD4A4678-76EC-53D6-E7BC-BBB48318AA4F}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
@@ -41,13 +41,13 @@
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L_818F3B66.wem</CachePath>
 				</File>
+				<File Id="184500938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CaveAmbienceDrips_HV.138.wav</ShortName>
+					<CachePath>SFX/CaveAmbienceDrips_HV.138_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="267161446" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-32.R_818F3B66.wem</CachePath>
-				</File>
-				<File Id="278270202" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BRS_Feet_Grass_Soft_Walking_Various.wav</ShortName>
-					<CachePath>SFX/BRS_Feet_Grass_Soft_Walking_Various_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="299120208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-37.L.wav</ShortName>
@@ -72,6 +72,10 @@
 				<File Id="413109476" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="455375927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite.wav</ShortName>
+					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="473774633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>armor_07.L.cm-St.wav</ShortName>
@@ -99,7 +103,7 @@
 				</File>
 				<File Id="589645575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps base.wav</ShortName>
-					<CachePath>SFX/footsteps base_63111BAC.wem</CachePath>
+					<CachePath>SFX/footsteps base_654BC4EC.wem</CachePath>
 				</File>
 				<File Id="609307186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.R.wav</ShortName>
@@ -111,7 +115,7 @@
 				</File>
 				<File Id="653133887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps base.wav</ShortName>
-					<CachePath>SFX/footsteps base_674FC0A8.wem</CachePath>
+					<CachePath>SFX/footsteps base_DFD68AA0.wem</CachePath>
 				</File>
 				<File Id="660131341" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.R.wav</ShortName>
@@ -136,6 +140,10 @@
 				<File Id="814855096" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>armor_10.R.cm-St.wav</ShortName>
 					<CachePath>SFX/armor_10.R.cm-St_818F3B66.wem</CachePath>
+				</File>
+				<File Id="841828226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EX_US_Ambience_Bat_Cave_Stalactite_Wet.wav</ShortName>
+					<CachePath>SFX/EX_US_Ambience_Bat_Cave_Stalactite_Wet_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="848935093" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R.wav</ShortName>
@@ -189,12 +197,32 @@
 					<ShortName>armor_05.L.cm-St.wav</ShortName>
 					<CachePath>SFX/armor_05.L.cm-St_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1063160985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sample music 02.wav</ShortName>
+					<CachePath>SFX/sample music 02_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1065758574" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sample music 01.wav</ShortName>
+					<CachePath>SFX/sample music 01_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="278617630" Name="Play_Ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="184500938"/>
+						<MediaRef Id="841828226"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="602787445" Name="Play_Dragon_Base" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="28555664"/>
-						<MediaRef Id="278270202"/>
+						<MediaRef Id="455375927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4145153789" Name="Play_Music_Lvl1" DurationType="OneShot" DurationMin="43.004284" DurationMax="43.004284">
+					<MediaRefs>
+						<MediaRef Id="1063160985"/>
+						<MediaRef Id="1065758574"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1368704831" Name="Play_Player_Footsep_R" DurationType="OneShot" DurationMin="5.3946466" DurationMax="5.425897">
@@ -221,6 +249,9 @@
 						<MediaRef Id="963713112"/>
 						<MediaRef Id="984218682"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2201047382" Name="Reverb_Hallway"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="630496935" Name="Play_Player_Footstep_L" DurationType="OneShot" DurationMin="5.3946466" DurationMax="5.425897">
 					<MediaRefs>
@@ -246,21 +277,41 @@
 						<MediaRef Id="1002755762"/>
 						<MediaRef Id="1051505285"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2201047382" Name="Reverb_Hallway"/>
+					</AuxBusRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{626D37DE-0106-1130-E232-E8C9A38BE45E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{293DB7F5-96AD-601A-1385-F606A2FBDBF4}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="2218430628" Name="Reverb_Hallway_01" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="529726550" Name="Env"/>
+				<Bus Id="1069431850" Name="Player"/>
+				<Bus Id="2297136520" Name="Dragon"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="2201047382" Name="Reverb_Hallway">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2218430628"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="835198467" Name="MasterBus"/>
 				<GameParameter Id="2886307548" Name="MusicBus"/>
@@ -294,5 +345,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{63A5244A-5059-8B38-AFEA-D26CD2BAF5D6}</FileHash>
+	<FileHash>{540D67B3-1C2E-C370-6CD8-C4EA77A06BEC}</FileHash>
 </SoundBanksInfo>
