@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{71E35019-373F-496A-A461-F0BF424BBD97}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{71E35019-373F-496A-A461-F0BF424BBD97}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{71E35019-373F-496A-A461-F0BF424BBD97}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Hallway_Reverb_01" ID="{DAE99F24-7CEB-439E-BB44-6DD18AE22806}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">					<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+				</Effect>
+				<Effect Name="Reverb_Hallway_01" ID="{1CE52159-E93A-4104-BA6D-B0B5675D6B5F}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ERPattern" Type="int32" Value="10"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

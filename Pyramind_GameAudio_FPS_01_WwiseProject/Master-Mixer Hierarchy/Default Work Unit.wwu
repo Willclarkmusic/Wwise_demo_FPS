@@ -9,6 +9,140 @@
 							<ObjectRef Name="System" ID="{D0C65DBB-B05C-4D7A-805B-67B2C5D90E2B}" WorkUnitID="{DB8D6FAE-5D75-40D6-A6BB-2952BBA6EE69}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{C1AFC9E1-A285-45F7-8651-376FFD604E69}">
+							<ChildrenList>
+								<Bus Name="Player" ID="{9E702DF3-4867-415F-8E42-EC11DF984348}"/>
+								<Bus Name="Env" ID="{628687D0-3DAB-4F42-B48E-253B4C70530D}">
+									<ChildrenList>
+										<AuxBus Name="Reverb_Hallway" ID="{D57567B1-BCEF-4198-86B1-DE8C2A4D6DC3}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{AD48E6A1-3D55-4289-83F0-6FBA7306BF1E}" ShortID="649666289">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Reverb_Hallway_01" ID="{1CE52159-E93A-4104-BA6D-B0B5675D6B5F}" WorkUnitID="{71E35019-373F-496A-A461-F0BF424BBD97}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Dragon" ID="{F6168581-9558-4B37-A0B8-DD7327B1405E}"/>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerLocation" ID="{CC75A0B4-2242-4B1D-9FA9-9A37C1D5ADA2}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Spawn" ID="{E20B77A4-EAEF-4280-A9F2-FB352B375FE7}"/>
+										<CustomState Name="" ID="{336B5C19-38E3-4FEF-8F6A-DF157B9BEB04}" ShortID="201878721"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hallway1" ID="{DCB4A770-C776-4840-B013-98EC17904679}"/>
+										<CustomState Name="" ID="{F4DBD4A9-334C-493C-A15E-C49429411823}" ShortID="1026832327"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hallway2" ID="{630408BA-9F93-4B63-835C-B9C00850D585}"/>
+										<CustomState Name="" ID="{8A88A4B6-C18C-4A09-B855-B44BC0585276}" ShortID="673199197"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="BossRoom" ID="{8364FC20-F1E9-4C1B-BEC9-637506F18B47}"/>
+										<CustomState Name="" ID="{780E729E-F63A-4CD3-A0DA-42B588A32D16}" ShortID="327775818"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{0120154F-F00F-4E0E-A3B2-3E242A15128F}" ShortID="899033370">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFXBus" ID="{58C527A7-7BFE-444C-A4E8-BCBDAC9D64B7}" WorkUnitID="{F8A78977-4D11-470F-8EDA-93514BFC3A95}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{CA6BDA64-CA9C-48C7-8AED-2265CDEA6B22}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="Music" ID="{9076B475-E50C-4D15-A4EA-8A674E92CD42}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{61381D3B-A0E9-4DBC-9279-BFB5DC445A6B}" ShortID="885489831">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="MusicBus" ID="{1DFE5F95-1E36-4A7E-A9C5-EE83D653B581}" WorkUnitID="{F8A78977-4D11-470F-8EDA-93514BFC3A95}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{D7779BC6-7D83-4905-A673-BB6DACC44296}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
 							<Reference>

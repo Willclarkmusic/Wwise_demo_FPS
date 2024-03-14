@@ -15,6 +15,7 @@ public class AttackState : StateMachineBehaviour
         
         agent = animator.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+            AkSoundEngine.SetState("DragonState", "Rage");
 
     }
 
@@ -27,7 +28,6 @@ public class AttackState : StateMachineBehaviour
         {
             Debug.Log("timerstarted");
             animator.SetBool("isAttacking", false);
-            AkSoundEngine.SetState("DragonState", "Patrolling");
 
         }
     }

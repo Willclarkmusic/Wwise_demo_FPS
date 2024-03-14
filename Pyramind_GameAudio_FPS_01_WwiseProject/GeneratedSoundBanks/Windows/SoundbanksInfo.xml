@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{DEF9F8F7-A3CC-1FF9-CC42-2836A45C10F7}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{8217B462-E43C-6ABA-6879-098050E40555}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
@@ -52,6 +52,10 @@
 				<File Id="233979971" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Step [2024-03-07 105532].wav</ShortName>
 					<CachePath>SFX/Step [2024-03-07 105532]_818F3B66.wem</CachePath>
+				</File>
+				<File Id="234020411" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Room_Amb_02.wav</ShortName>
+					<CachePath>SFX/Room_Amb_02_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="259600893" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114408].wav</ShortName>
@@ -181,6 +185,10 @@
 					<ShortName>Base [2024-03-07 105528].wav</ShortName>
 					<CachePath>SFX/Base [2024-03-07 105528]_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1038367615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Room_Amb_01.wav</ShortName>
+					<CachePath>SFX/Room_Amb_01_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="1050420937" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405].wav</ShortName>
 					<CachePath>SFX/ESM_Empire_Game_Footsteps_Single_Cloth_Armor_Movement_Soldier_Walking_Marching_Foley [2024-03-07 114405]_818F3B66.wem</CachePath>
@@ -207,6 +215,12 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="278617630" Name="Play_Ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="234020411"/>
+						<MediaRef Id="1038367615"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="602787445" Name="Play_Dragon_Base" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="570091035"/>
@@ -315,18 +329,35 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4E42278E-6B3F-BEDB-269E-4F86D93F4E43}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{87B40EF8-E3D1-7776-6F2F-C2622F99780D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="2218430628" Name="Reverb_Hallway_01" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="529726550" Name="Env"/>
+				<Bus Id="1069431850" Name="Player"/>
+				<Bus Id="2297136520" Name="Dragon"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="2201047382" Name="Reverb_Hallway">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2218430628"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="835198467" Name="MasterBus"/>
 				<GameParameter Id="2886307548" Name="MusicBus"/>
@@ -336,7 +367,6 @@
 				<StateGroup Id="1602053271" Name="PlayerLocation">
 					<States>
 						<State Id="71202558" Name="Spawn"/>
-						<State Id="748895195" Name="None"/>
 						<State Id="3329270527" Name="BossRoom"/>
 						<State Id="4053971345" Name="Hallway2"/>
 						<State Id="4053971346" Name="Hallway1"/>
@@ -360,5 +390,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E3C48920-78FA-6868-C8BD-0C3B15CA298B}</FileHash>
+	<FileHash>{683AB618-5F64-BE14-59FD-9CF6C9FF1388}</FileHash>
 </SoundBanksInfo>

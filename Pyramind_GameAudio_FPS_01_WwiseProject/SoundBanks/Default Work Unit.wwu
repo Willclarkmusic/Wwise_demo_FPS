@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Player_Footstep_R" ID="{21D2E9F8-8911-411C-A61F-089C94642A23}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Dragon_Base" ID="{E9A6ED9F-239C-42DF-A1B5-BF7ECD49083E}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambience" ID="{E5E530DA-B060-4682-A9BF-814FE4AD933F}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footstep_L" ID="{A249BF2A-1976-4D99-858F-2962522C02AD}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

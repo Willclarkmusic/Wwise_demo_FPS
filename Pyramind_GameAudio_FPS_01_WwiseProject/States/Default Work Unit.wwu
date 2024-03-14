@@ -12,7 +12,6 @@
 				</StateGroup>
 				<StateGroup Name="PlayerLocation" ID="{CC75A0B4-2242-4B1D-9FA9-9A37C1D5ADA2}">
 					<ChildrenList>
-						<State Name="None" ID="{017FDE90-CF73-45A9-92A8-A3D0239B0EB6}"/>
 						<State Name="Spawn" ID="{E20B77A4-EAEF-4280-A9F2-FB352B375FE7}"/>
 						<State Name="Hallway1" ID="{DCB4A770-C776-4840-B013-98EC17904679}"/>
 						<State Name="Hallway2" ID="{630408BA-9F93-4B63-835C-B9C00850D585}"/>
