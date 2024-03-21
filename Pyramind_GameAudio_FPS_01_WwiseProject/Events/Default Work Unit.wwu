@@ -80,7 +80,83 @@
 						<Action Name="" ID="{563D5024-CB7B-411C-BF0C-A39ABCA8D589}" ShortID="993102061">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_Lvl1_A" ID="{F0D9B6D2-1C4A-4442-8366-72A58F054094}" WorkUnitID="{C680A2D2-37D8-42AD-BE02-9D4D928474AE}"/>
+									<ObjectRef Name="Music_Lvl1" ID="{5175CAB9-1695-4C4E-A47D-AD9CDA5F0E3C}" WorkUnitID="{C680A2D2-37D8-42AD-BE02-9D4D928474AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Shoot" ID="{AB45F801-3275-430C-B114-8495B305BC71}">
+					<ChildrenList>
+						<Action Name="" ID="{913DE4BF-4572-4208-8E60-E471E64974A4}" ShortID="945438177">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shoot" ID="{44BFCD55-BC10-4F2A-A05E-630283E8642C}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dragon_Death" ID="{70E24D00-2FBF-4059-9568-A3CD7DBEEE8E}">
+					<ChildrenList>
+						<Action Name="" ID="{324BD092-6BF9-40A7-8513-BFE8BD4B082D}" ShortID="397373906">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragon_Death" ID="{4A6F05AE-6876-434E-9DA8-E82232A4B01D}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3DCD49C9-4C18-4415-BE0F-93A2F36FBFFA}" ShortID="55015831">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragon_Base" ID="{D2252E7B-1DCB-464B-8853-1FBC9B7B4841}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dragon_Hit" ID="{37F593AF-CB26-4EE4-81DB-49C629D95BE9}">
+					<ChildrenList>
+						<Action Name="" ID="{8512FC70-D7C4-4B3F-9776-AEEA3DA2111D}" ShortID="415681155">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragon_Hit" ID="{83211301-441A-458F-9FE3-49D9DDAAFDD8}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dragon_Run" ID="{29C1379A-E6A3-444A-AC18-A771CDB2BDDE}">
+					<ChildrenList>
+						<Action Name="" ID="{BC96862A-DCD7-4DE9-A560-74EA1684F622}" ShortID="218518881">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragon_Run" ID="{A05E139B-006A-460E-910C-16A32A1AAC75}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dragon_Walk" ID="{7D6D6E40-F6DB-48D6-B294-FE36EAD48BAD}">
+					<ChildrenList>
+						<Action Name="" ID="{0D37B27D-94EC-496C-923F-2ADF530CF13B}" ShortID="850831873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragon_Walk" ID="{821DC567-9AC9-4A9E-9A32-CD0BB29E1425}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dragon_Attack" ID="{511913FC-27BB-49A4-89E3-42FBF2224278}">
+					<ChildrenList>
+						<Action Name="" ID="{360E0544-7EAF-4D6F-B4AC-9E71F5623091}" ShortID="200610325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dragon_Attack" ID="{B3BF379D-2EAF-4F83-BDFF-0BECD0E86F3F}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

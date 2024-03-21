@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: aa445a0e052c464880fd1454c0af1e06
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: aa445a0e052c464880fd1454c0af1e06
     GuidInternal: 
-    m_lastTime: -8584918217095110194
+    m_lastTime: -8584923768687367239
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: cca8b020f8f2c143b9011688ee4c1e80
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: cca8b020f8f2c143b9011688ee4c1e80
     GuidInternal: 
-    m_lastTime: -8584906146755756674
+    m_lastTime: -8584911663646374258
     List:
     - name: Dragon
       guid: 617a82dc8244674c9fef1448409b5be6
@@ -59,7 +59,7 @@ MonoBehaviour:
       - ElementName: Dragon
         ObjectType: 2
         guid: 617a82dc8244674c9fef1448409b5be6
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Dragon
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Dragon
     - name: Env
       guid: 8d74ab3730ea8c42a5831f7f0745861a
       id: 529726550
@@ -79,7 +79,7 @@ MonoBehaviour:
       - ElementName: Env
         ObjectType: 2
         guid: 8d74ab3730ea8c42a5831f7f0745861a
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Env
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Env
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -93,7 +93,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
     - name: Music
       guid: a7a4d4ef943e2942b86db7d2c4712ea1
       id: 3991942870
@@ -110,7 +110,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 2
         guid: a7a4d4ef943e2942b86db7d2c4712ea1
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music
     - name: Player
       guid: c71f67de52702943a57f81b5963787d2
       id: 1069431850
@@ -130,7 +130,7 @@ MonoBehaviour:
       - ElementName: Player
         ObjectType: 2
         guid: c71f67de52702943a57f81b5963787d2
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Player
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Player
     - name: Reverb_Hallway
       guid: ef012b8c8ca25a45b6ebee0d63554f9e
       id: 2201047382
@@ -153,7 +153,7 @@ MonoBehaviour:
       - ElementName: Reverb_Hallway
         ObjectType: 1
         guid: ef012b8c8ca25a45b6ebee0d63554f9e
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Env\Reverb_Hallway
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Env/Reverb_Hallway
     - name: SFX
       guid: 310d02efb6a7be49952688acd9448892
       id: 393239870
@@ -170,9 +170,9 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: 310d02efb6a7be49952688acd9448892
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -180,10 +180,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: fa1a4389254e92469318f8c78df1f485
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: fa1a4389254e92469318f8c78df1f485
     GuidInternal: 
-    m_lastTime: -8584906146718578630
+    m_lastTime: -8584905586932281281
     List:
     - name: MainSoundBank
       guid: a75706ee3ec06849b6371d1b31a71d29
@@ -198,9 +198,9 @@ MonoBehaviour:
       - ElementName: MainSoundBank
         ObjectType: 7
         guid: a75706ee3ec06849b6371d1b31a71d29
-      Path: SoundBanks\Default Work Unit\MainSoundBank
+      Path: SoundBanks/Default Work Unit/MainSoundBank
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -208,10 +208,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: a694b01cb9ab4845bf6aee8c62e7f05a
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: a694b01cb9ab4845bf6aee8c62e7f05a
     GuidInternal: 
-    m_lastTime: -8584906146796578988
+    m_lastTime: -8584905578263687943
     List:
     - name: Play_Ambience
       guid: 96de0b3eff851f4eb9a566bf4d037821
@@ -226,7 +226,24 @@ MonoBehaviour:
       - ElementName: Play_Ambience
         ObjectType: 3
         guid: 96de0b3eff851f4eb9a566bf4d037821
-      Path: Events\Default Work Unit\Play_Ambience
+      Path: Events/Default Work Unit/Play_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Dragon_Attack
+      guid: fc131951bb27a44989e342fbf2224278
+      id: 3988252362
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a694b01cb9ab4845bf6aee8c62e7f05a
+      - ElementName: Play_Dragon_Attack
+        ObjectType: 3
+        guid: fc131951bb27a44989e342fbf2224278
+      Path: Events/Default Work Unit/Play_Dragon_Attack
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -243,8 +260,76 @@ MonoBehaviour:
       - ElementName: Play_Dragon_Base
         ObjectType: 3
         guid: c271cba0ed36f24e9e0c2f3262447a5d
-      Path: Events\Default Work Unit\Play_Dragon_Base
+      Path: Events/Default Work Unit/Play_Dragon_Base
       maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Dragon_Death
+      guid: 004de270bf2f59409568a3cd7dbeee8e
+      id: 354003232
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a694b01cb9ab4845bf6aee8c62e7f05a
+      - ElementName: Play_Dragon_Death
+        ObjectType: 3
+        guid: 004de270bf2f59409568a3cd7dbeee8e
+      Path: Events/Default Work Unit/Play_Dragon_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Dragon_Hit
+      guid: af93f53726cbe44e81db49c629d95be9
+      id: 3247540401
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a694b01cb9ab4845bf6aee8c62e7f05a
+      - ElementName: Play_Dragon_Hit
+        ObjectType: 3
+        guid: af93f53726cbe44e81db49c629d95be9
+      Path: Events/Default Work Unit/Play_Dragon_Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Dragon_Run
+      guid: 9a37c129a3e64a44ac18a771cdb2bdde
+      id: 3243303169
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a694b01cb9ab4845bf6aee8c62e7f05a
+      - ElementName: Play_Dragon_Run
+        ObjectType: 3
+        guid: 9a37c129a3e64a44ac18a771cdb2bdde
+      Path: Events/Default Work Unit/Play_Dragon_Run
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Dragon_Walk
+      guid: 406e6d7ddbf6d648b294fe36ead48bad
+      id: 2497370473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a694b01cb9ab4845bf6aee8c62e7f05a
+      - ElementName: Play_Dragon_Walk
+        ObjectType: 3
+        guid: 406e6d7ddbf6d648b294fe36ead48bad
+      Path: Events/Default Work Unit/Play_Dragon_Walk
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Music_Lvl1
@@ -260,10 +345,10 @@ MonoBehaviour:
       - ElementName: Play_Music_Lvl1
         ObjectType: 3
         guid: 8f0314206af96d4c9c74eaa708d45561
-      Path: Events\Default Work Unit\Play_Music_Lvl1
+      Path: Events/Default Work Unit/Play_Music_Lvl1
       maxAttenuation: 0
-      maxDuration: 43.004284
-      minDuration: 43.004284
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Player_Footsep_R
       guid: 1b14eceac40e834b8c558c8c5ffa6817
       id: 1368704831
@@ -277,7 +362,7 @@ MonoBehaviour:
       - ElementName: Play_Player_Footsep_R
         ObjectType: 3
         guid: 1b14eceac40e834b8c558c8c5ffa6817
-      Path: Events\Default Work Unit\Play_Player_Footsep_R
+      Path: Events/Default Work Unit/Play_Player_Footsep_R
       maxAttenuation: 0
       maxDuration: 5.425897
       minDuration: 5.3946466
@@ -294,12 +379,29 @@ MonoBehaviour:
       - ElementName: Play_Player_Footstep_L
         ObjectType: 3
         guid: 72f4b40faf23ba458f3144864f0a6cb0
-      Path: Events\Default Work Unit\Play_Player_Footstep_L
+      Path: Events/Default Work Unit/Play_Player_Footstep_L
       maxAttenuation: 0
       maxDuration: 5.425897
       minDuration: 5.3946466
+    - name: Play_Player_Shoot
+      guid: 01f845ab75320c43b1148495b305bc71
+      id: 48490325
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a694b01cb9ab4845bf6aee8c62e7f05a
+      - ElementName: Play_Player_Shoot
+        ObjectType: 3
+        guid: 01f845ab75320c43b1148495b305bc71
+      Path: Events/Default Work Unit/Play_Player_Shoot
+      maxAttenuation: 0
+      maxDuration: 0.7944908
+      minDuration: 0.19695869
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -307,10 +409,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 7789a7f8114d0f478eda93514bfc3a95
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: 7789a7f8114d0f478eda93514bfc3a95
     GuidInternal: 
-    m_lastTime: -8584918217106077277
+    m_lastTime: -8584923768687989517
     List:
     - name: MasterBus
       guid: e8aca2b21b5ef74a99c7d7ab30e4d41c
@@ -325,7 +427,7 @@ MonoBehaviour:
       - ElementName: MasterBus
         ObjectType: 13
         guid: e8aca2b21b5ef74a99c7d7ab30e4d41c
-      Path: Game Parameters\Default Work Unit\MasterBus
+      Path: Game Parameters/Default Work Unit/MasterBus
     - name: MusicBus
       guid: 955ffe1d361e7e4aa9c5ee83d653b581
       id: 2886307548
@@ -339,7 +441,7 @@ MonoBehaviour:
       - ElementName: MusicBus
         ObjectType: 13
         guid: 955ffe1d361e7e4aa9c5ee83d653b581
-      Path: Game Parameters\Default Work Unit\MusicBus
+      Path: Game Parameters/Default Work Unit/MusicBus
     - name: SFXBus
       guid: a727c558fe7b4c44a4e8bcbdac9d64b7
       id: 3803850708
@@ -353,9 +455,9 @@ MonoBehaviour:
       - ElementName: SFXBus
         ObjectType: 13
         guid: a727c558fe7b4c44a4e8bcbdac9d64b7
-      Path: Game Parameters\Default Work Unit\SFXBus
+      Path: Game Parameters/Default Work Unit/SFXBus
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -363,10 +465,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 88168620dc9ca6448a65d75efc21f9cf
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: 88168620dc9ca6448a65d75efc21f9cf
     GuidInternal: 
-    m_lastTime: -8584918217095776212
+    m_lastTime: -8584905626615582380
     List:
     - name: DragonState
       guid: e081d58a55580d45adcd247d11ac2092
@@ -381,8 +483,24 @@ MonoBehaviour:
       - ElementName: DragonState
         ObjectType: 9
         guid: e081d58a55580d45adcd247d11ac2092
-      Path: States\Default Work Unit\DragonState
+      Path: States/Default Work Unit/DragonState
       values:
+      - name: Dead
+        guid: 06768875aea5b94db1fb2f6744164e9b
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: DragonState
+          ObjectType: 9
+          guid: e081d58a55580d45adcd247d11ac2092
+        - ElementName: Dead
+          ObjectType: 8
+          guid: 06768875aea5b94db1fb2f6744164e9b
       - name: None
         guid: 9cf6e41fa77e9a49a941de8f8b552f3f
         id: 748895195
@@ -447,7 +565,7 @@ MonoBehaviour:
       - ElementName: PlayerLocation
         ObjectType: 9
         guid: b4a075cc42221d4b9fa99a37c1d5ada2
-      Path: States\Default Work Unit\PlayerLocation
+      Path: States/Default Work Unit/PlayerLocation
       values:
       - name: BossRoom
         guid: 20fc6483e9f11b4cbec9637506f18b47
@@ -533,7 +651,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -541,10 +659,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 2578a90f00f9ce4786c90fed8a1fb46f
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 2578a90f00f9ce4786c90fed8a1fb46f
     GuidInternal: 
-    m_lastTime: -8584918217095766208
+    m_lastTime: -8584923768687369013
     List:
     - name: DragonState
       guid: 24d853da6cfd04408149e527e0814dbe
@@ -559,7 +677,7 @@ MonoBehaviour:
       - ElementName: DragonState
         ObjectType: 11
         guid: 24d853da6cfd04408149e527e0814dbe
-      Path: Switches\Default Work Unit\DragonState
+      Path: Switches/Default Work Unit/DragonState
       values:
       - name: Patrolling
         guid: 3089ac191b938b42b2fef5061dd83a43
@@ -597,7 +715,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -605,10 +723,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 16b53877140cf541a97251d1c6b350fb
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 16b53877140cf541a97251d1c6b350fb
     GuidInternal: 
-    m_lastTime: -8584918217095326390
+    m_lastTime: -8584923768687368158
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 02000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001b0000001c0000001f00000021000000

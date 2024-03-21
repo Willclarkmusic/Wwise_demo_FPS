@@ -8,6 +8,7 @@
 						<State Name="None" ID="{1FE4F69C-7EA7-499A-A941-DE8F8B552F3F}"/>
 						<State Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
 						<State Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+						<State Name="Dead" ID="{75887606-A5AE-4DB9-B1FB-2F6744164E9B}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="PlayerLocation" ID="{CC75A0B4-2242-4B1D-9FA9-9A37C1D5ADA2}">

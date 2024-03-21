@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="MainSoundBank" ID="{EE0657A7-C03E-4968-B637-1D1B31A71D29}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Player_Shoot" ID="{AB45F801-3275-430C-B114-8495B305BC71}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footstep_L" ID="{0FB4F472-23AF-45BA-8F31-44864F0A6CB0}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footsep_R" ID="{EAEC141B-0EC4-4B83-8C55-8C8C5FFA6817}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music_Lvl1" ID="{2014038F-F96A-4C6D-9C74-EAA708D45561}" WorkUnitID="{1CB094A6-ABB9-4548-BF6A-EE8C62E7F05A}" Origin="Manual" Filter="7"/>

@@ -10,6 +10,7 @@ State	ID	Name	State Group			Notes
 	4053971346	Hallway1	PlayerLocation			
 	748895195	None	DragonState			
 	1942738266	Rage	DragonState			
+	2044049779	Dead	DragonState			
 	2799695215	Patrolling	DragonState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

@@ -18269,6 +18269,7 @@ GameObject:
   - component: {fileID: 658737774}
   - component: {fileID: 658737776}
   - component: {fileID: 658737775}
+  - component: {fileID: 658737777}
   m_Layer: 0
   m_Name: Ambience
   m_TagString: Untagged
@@ -18343,6 +18344,41 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &658737777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658737773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c75a364c143ffa43acb740a0fc43403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dfc2345af9855473d903999b9c2158be,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
 --- !u!4 &663814567 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8142400871787929859, guid: 0aa7e00d814a34847b233e57b43f046b,
@@ -36487,8 +36523,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 608463451}
-  - {fileID: 658737774}
   - {fileID: 1732543139}
+  - {fileID: 658737774}
   - {fileID: 749753617}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -40902,12 +40938,12 @@ MonoBehaviour:
   walkFoostepSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7ba4a91dc8bfa4e40911086f7365be02,
+    WwiseObjectReference: {fileID: 11400000, guid: 9ce84edd244d54505b6f1ada79cb29bc,
       type: 2}
   runFootstepSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 04517ecc4efb9cb48947ded09e1282be,
+    WwiseObjectReference: {fileID: 11400000, guid: 922f12459a792449aaa0cd88571d0a6f,
       type: 2}
   dragonBaseSounds:
     idInternal: 0
@@ -40917,7 +40953,8 @@ MonoBehaviour:
   stopDragonBaseSounds:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b2892efe9cae94ec898d6cc3782c92ba,
+      type: 2}
   dragonRageSound:
     idInternal: 0
     valueGuidInternal: 
@@ -40926,17 +40963,17 @@ MonoBehaviour:
   hitDragonSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e999e79bf0273fa41b3a8d2fd51fff84,
+    WwiseObjectReference: {fileID: 11400000, guid: a05150a106fbd4399b9a66d8435a67c8,
       type: 2}
   deathDragonSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e999e79bf0273fa41b3a8d2fd51fff84,
+    WwiseObjectReference: {fileID: 11400000, guid: b2892efe9cae94ec898d6cc3782c92ba,
       type: 2}
   attackDragonSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e999e79bf0273fa41b3a8d2fd51fff84,
+    WwiseObjectReference: {fileID: 11400000, guid: 511459c1d4d824b0c8e44b4f56c5e81e,
       type: 2}
 --- !u!1 &1703953365 stripped
 GameObject:
@@ -49827,7 +49864,7 @@ MonoBehaviour:
   shootPrimarySound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7ba4a91dc8bfa4e40911086f7365be02,
+    WwiseObjectReference: {fileID: 11400000, guid: a520ad0d1d0b2472294d9603f7505565,
       type: 2}
   deathSound:
     idInternal: 0

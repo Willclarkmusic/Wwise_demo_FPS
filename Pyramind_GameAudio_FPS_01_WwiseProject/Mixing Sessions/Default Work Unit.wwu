@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{80204933-8993-48BF-9997-5E130BC3C705}" SchemaVersion="119">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{80204933-8993-48BF-9997-5E130BC3C705}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{80204933-8993-48BF-9997-5E130BC3C705}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Main_Lvl1" ID="{E6044607-1E79-4BE8-8F5B-31BB343C5472}">
+					<ObjectList>
+						<ObjectRef Name="Player" ID="{77367D1E-E8B6-4412-8BC1-44130869D820}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="Music_Lvl1" ID="{5175CAB9-1695-4C4E-A47D-AD9CDA5F0E3C}" WorkUnitID="{C680A2D2-37D8-42AD-BE02-9D4D928474AE}"/>
+						<ObjectRef Name="SpawnRoom_Amb" ID="{DAC1642B-E314-4A0F-B2E8-D77F2D0AF9D6}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="BossRoom_Amb" ID="{32D1C867-010A-4153-8937-3170AF4B481C}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="Dragon_Base" ID="{D2252E7B-1DCB-464B-8853-1FBC9B7B4841}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="Dragon" ID="{C89C84F3-7103-4EE3-B860-CD239ED46652}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="Ambience" ID="{1AE23273-04A2-4ADC-A90F-B083B3783220}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="Shoot" ID="{44BFCD55-BC10-4F2A-A05E-630283E8642C}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="Footsteps" ID="{95736C95-B07D-4A49-A310-1A0C720241DD}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

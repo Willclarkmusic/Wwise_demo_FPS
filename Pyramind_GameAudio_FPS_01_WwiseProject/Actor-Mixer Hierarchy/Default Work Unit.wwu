@@ -3,170 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="Dragon_Base" ID="{D2252E7B-1DCB-464B-8853-1FBC9B7B4841}" ShortID="1027140601">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="MaxSoundPerInstance" Type="int16">
-							<ValueList>
-								<Value>1</Value>
-							</ValueList>
-						</Property>
-						<Property Name="UseMaxSoundPerInstance" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="dragon rage breathing placeholder" ID="{FB8578E5-1535-4DE3-A67A-A6B4FD947A9C}" ShortID="839675891">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan" ID="{F8329C7E-559A-40E9-BF3C-76B0BFF8C3EB}">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-										</Reference>
-									</ReferenceList>
-									<Language>SFX</Language>
-									<AudioFile>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="28555664"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="FF_HFFX_sfx_creature_sleeping_dragon_red" ID="{B09AC1A3-D3E9-4060-BF7F-28EFB9116172}">
-									<Language>SFX</Language>
-									<AudioFile>FF_HFFX_sfx_creature_sleeping_dragon_red.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="103681752"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="FF_HFFX_sfx_creature_roar_brown" ID="{9A0CCE65-01A3-4713-A773-B4B64F20A3EE}">
-									<Language>SFX</Language>
-									<AudioFile>FF_HFFX_sfx_creature_roar_brown.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="740376118"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
-										<CustomState Name="" ID="{E59D8DC8-AE48-4B73-84E6-1903B1329B79}" ShortID="633538292"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
-										<CustomState Name="" ID="{B529424B-B082-43B0-88E8-822755568AB2}" ShortID="459419743">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="FF_HFFX_sfx_creature_roar_brown" ID="{9A0CCE65-01A3-4713-A773-B4B64F20A3EE}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="dragon idle breathing placeholder" ID="{62CC4232-AA66-4878-BC2A-C153628C12BC}" ShortID="574468775">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite" ID="{F05C6C68-6DA9-4922-8F39-B4792A430F97}">
-									<Language>SFX</Language>
-									<AudioFile>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="455375927"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="BRS_Creature_Demon_Breaths_Drawn_Out_2" ID="{7876712B-F94E-41DD-85C4-61EEE8931DD7}">
-									<Language>SFX</Language>
-									<AudioFile>BRS_Creature_Demon_Breaths_Drawn_Out_2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="879863981"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
-										<CustomState Name="" ID="{75A6B234-D826-405E-A4E2-B6D3562EF3F2}" ShortID="712924059">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
-										<CustomState Name="" ID="{409AEC74-D9A3-4E22-970B-EB7F1AE3346E}" ShortID="439323034"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="BRS_Creature_Demon_Breaths_Drawn_Out_2" ID="{7876712B-F94E-41DD-85C4-61EEE8931DD7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</BlendContainer>
 				<BlendContainer Name="Player" ID="{77367D1E-E8B6-4412-8BC1-44130869D820}" ShortID="961960785">
 					<PropertyList>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -1413,6 +1249,111 @@
 								</BlendContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="Shoot" ID="{44BFCD55-BC10-4F2A-A05E-630283E8642C}" ShortID="700371857">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{26478B4E-8E88-4766-BBD9-45EB70A464A0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{82A4D226-28AA-4B5B-A61E-4E9AA59EC2A8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="TSP_CADM_808_cowbell" ID="{6A2C7519-E3C3-4D98-AF94-1A7C135E9296}" ShortID="20377656">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TSP_CADM_808_cowbell" ID="{E1537EF2-179F-4FB2-9ECC-A3603C51720A}">
+											<Language>SFX</Language>
+											<AudioFile>TSP_CADM_808_cowbell.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="330714296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TSP_CADM_808_cowbell" ID="{E1537EF2-179F-4FB2-9ECC-A3603C51720A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MARS_VDM_snare_one_shot_808_standard" ID="{ED79DF8C-9CFE-4793-905F-A60EC56475D3}" ShortID="293459338">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MARS_VDM_snare_one_shot_808_standard" ID="{2B3AE0AE-BB3D-49FD-A525-15CCA41D83AA}">
+											<Language>SFX</Language>
+											<AudioFile>MARS_VDM_snare_one_shot_808_standard.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="652510837"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MARS_VDM_snare_one_shot_808_standard" ID="{2B3AE0AE-BB3D-49FD-A525-15CCA41D83AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="OS_NOC_808_beast_C" ID="{002400B4-2739-46A9-A40C-9ACAFF3D5C80}" ShortID="859089852">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OS_NOC_808_beast_C" ID="{C66DA475-4D60-4B45-AC3F-15D48D9260EA}">
+											<Language>SFX</Language>
+											<AudioFile>OS_NOC_808_beast_C.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1035999927"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="OS_NOC_808_beast_C" ID="{C66DA475-4D60-4B45-AC3F-15D48D9260EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Ambience" ID="{1AE23273-04A2-4ADC-A90F-B083B3783220}" ShortID="36649554">
@@ -1421,11 +1362,11 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+							<ObjectRef Name="Env" ID="{37AB748D-EA30-428C-A583-1F7F0745861A}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Room_Amb_Placeholder" ID="{DAC1642B-E314-4A0F-B2E8-D77F2D0AF9D6}" ShortID="460451606">
+						<Sound Name="SpawnRoom_Amb" ID="{DAC1642B-E314-4A0F-B2E8-D77F2D0AF9D6}" ShortID="460451606">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1479,7 +1420,7 @@
 								<ActiveSource Name="CaveAmbienceDrips_HV_138" ID="{723020E8-B112-470C-BADE-CCB09B991E2C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BossRoom_Amb_Placeholder" ID="{32D1C867-010A-4153-8937-3170AF4B481C}" ShortID="542056008">
+						<Sound Name="BossRoom_Amb" ID="{32D1C867-010A-4153-8937-3170AF4B481C}" ShortID="542056008">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1548,6 +1489,240 @@
 								<ActiveSource Name="ESM_4_Haunted_Dungeon_Ambience_Nature_Game_Background_Atmosphere_World_Fantasy_Sci_fi_Ancient_Loopwav" ID="{6D70339F-FF5C-4886-BA78-D8C2D5FEDB38}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Dragon" ID="{C89C84F3-7103-4EE3-B860-CD239ED46652}" ShortID="811174403">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Dragon" ID="{DC827A61-4482-4C67-9FEF-1448409B5BE6}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Dragon_Base" ID="{D2252E7B-1DCB-464B-8853-1FBC9B7B4841}" ShortID="1027140601">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dragon_Rage_Breathing" ID="{FB8578E5-1535-4DE3-A67A-A6B4FD947A9C}" ShortID="839675891">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan" ID="{F8329C7E-559A-40E9-BF3C-76B0BFF8C3EB}">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+												</Reference>
+											</ReferenceList>
+											<Language>SFX</Language>
+											<AudioFile>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="28555664"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="FF_HFFX_sfx_creature_sleeping_dragon_red" ID="{B09AC1A3-D3E9-4060-BF7F-28EFB9116172}">
+											<Language>SFX</Language>
+											<AudioFile>FF_HFFX_sfx_creature_sleeping_dragon_red.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="103681752"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="FF_HFFX_sfx_creature_roar_brown" ID="{9A0CCE65-01A3-4713-A773-B4B64F20A3EE}">
+											<Language>SFX</Language>
+											<AudioFile>FF_HFFX_sfx_creature_roar_brown.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="740376118"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+												<CustomState Name="" ID="{E59D8DC8-AE48-4B73-84E6-1903B1329B79}" ShortID="633538292"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+												<CustomState Name="" ID="{B529424B-B082-43B0-88E8-822755568AB2}" ShortID="459419743">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Dead" ID="{75887606-A5AE-4DB9-B1FB-2F6744164E9B}"/>
+												<CustomState Name="" ID="{D91DF5F1-57A4-4C86-B599-9D25A5BEE279}" ShortID="727311471"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_HFFX_sfx_creature_roar_brown" ID="{9A0CCE65-01A3-4713-A773-B4B64F20A3EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dragon_Idle_Breathing" ID="{62CC4232-AA66-4878-BC2A-C153628C12BC}" ShortID="574468775">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Dragon" ID="{2AB2AFAD-E004-4D0D-8BC3-33D7EA898E36}" WorkUnitID="{A33BAE3B-C7A5-4B56-A709-E3B92891E1E6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite" ID="{F05C6C68-6DA9-4922-8F39-B4792A430F97}">
+											<Language>SFX</Language>
+											<AudioFile>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="455375927"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="BRS_Creature_Demon_Breaths_Drawn_Out_2" ID="{7876712B-F94E-41DD-85C4-61EEE8931DD7}">
+											<Language>SFX</Language>
+											<AudioFile>BRS_Creature_Demon_Breaths_Drawn_Out_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="879863981"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DragonState" ID="{8AD581E0-5855-450D-ADCD-247D11AC2092}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Rage" ID="{239A6B15-218E-401F-9150-77BA0B124A7C}"/>
+												<CustomState Name="" ID="{75A6B234-D826-405E-A4E2-B6D3562EF3F2}" ShortID="712924059">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Patrolling" ID="{73F8B03A-ADFE-4148-B4EE-2D04FD972EDB}"/>
+												<CustomState Name="" ID="{409AEC74-D9A3-4E22-970B-EB7F1AE3346E}" ShortID="439323034"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Dead" ID="{75887606-A5AE-4DB9-B1FB-2F6744164E9B}"/>
+												<CustomState Name="" ID="{F2F30132-E64B-4C10-908E-6755B4548DB2}" ShortID="454051408"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="BRS_Creature_Demon_Breaths_Drawn_Out_2" ID="{7876712B-F94E-41DD-85C4-61EEE8931DD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="Dragon_Death" ID="{4A6F05AE-6876-434E-9DA8-E82232A4B01D}" ShortID="602450733">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dragon_Hit" ID="{83211301-441A-458F-9FE3-49D9DDAAFDD8}" ShortID="860848967">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dragon_Attack" ID="{B3BF379D-2EAF-4F83-BDFF-0BECD0E86F3F}" ShortID="344505126">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dragon_Walk" ID="{821DC567-9AC9-4A9E-9A32-CD0BB29E1425}" ShortID="1055541479">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dragon_Run" ID="{A05E139B-006A-460E-910C-16A32A1AAC75}" ShortID="931678263">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A82B1F19-F2F9-491D-B70A-176DA0F52015}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20B0A8CC-F2F8-43C1-B901-1688EE4C1E80}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
 			</ChildrenList>

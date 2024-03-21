@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B67773AC-9CF6-4B5A-ADFC-91D5654219EB}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B67773AC-9CF6-4B5A-ADFC-91D5654219EB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B67773AC-9CF6-4B5A-ADFC-91D5654219EB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main_Lvl1" ID="{EEB3C4C6-F62E-4FF5-A725-CBE83E146641}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="BossRoom_Amb" ID="{32D1C867-010A-4153-8937-3170AF4B481C}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{95736C95-B07D-4A49-A310-1A0C720241DD}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SpawnRoom_Amb" ID="{DAC1642B-E314-4A0F-B2E8-D77F2D0AF9D6}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Lvl1" ID="{5175CAB9-1695-4C4E-A47D-AD9CDA5F0E3C}" WorkUnitID="{C680A2D2-37D8-42AD-BE02-9D4D928474AE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Dragon_Base" ID="{D2252E7B-1DCB-464B-8853-1FBC9B7B4841}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shoot" ID="{44BFCD55-BC10-4F2A-A05E-630283E8642C}" WorkUnitID="{93567D8C-E4CB-4453-9736-CBB39C30DE5A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Spawn" ID="{E20B77A4-EAEF-4280-A9F2-FB352B375FE7}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
