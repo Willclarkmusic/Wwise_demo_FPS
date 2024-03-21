@@ -9,14 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{AD4A4678-76EC-53D6-E7BC-BBB48318AA4F}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{EDEA419E-C4F7-7C98-BFFA-6C1B56486114}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<Media>
-				<File Id="28555664" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="34240644" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>armor_08.L.cm-St.wav</ShortName>
 					<CachePath>SFX/armor_08.L.cm-St_818F3B66.wem</CachePath>
@@ -40,6 +36,10 @@
 				<File Id="162905952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-32.L_818F3B66.wem</CachePath>
+				</File>
+				<File Id="164794117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TheMarkFullMix_75bpm.wav</ShortName>
+					<CachePath>SFX/TheMarkFullMix_75bpm_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="184500938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>CaveAmbienceDrips_HV.138.wav</ShortName>
@@ -73,9 +73,9 @@
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-04.L_818F3B66.wem</CachePath>
 				</File>
-				<File Id="455375927" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite_FBC78EF0.wem</CachePath>
+				<File Id="459935510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ESM_4_Haunted_Dungeon_Ambience_Nature_Game_Background_Atmosphere_World_Fantasy_Sci_fi_Ancient_Loopwav.wav</ShortName>
+					<CachePath>SFX/ESM_4_Haunted_Dungeon_Ambience_Nature_Game_Background_Atmosphere_World_Fantasy_Sci_fi_Ancient_Loopwav_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="473774633" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>armor_07.L.cm-St.wav</ShortName>
@@ -125,6 +125,14 @@
 					<ShortName>armor_04.R.cm-St.wav</ShortName>
 					<CachePath>SFX/armor_04.R.cm-St_818F3B66.wem</CachePath>
 				</File>
+				<File Id="684541785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MusicalEerieHigh_S08HO.150.wav</ShortName>
+					<CachePath>SFX/MusicalEerieHigh_S08HO.150_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="740376118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_HFFX_sfx_creature_roar_brown.wav</ShortName>
+					<CachePath>SFX/FF_HFFX_sfx_creature_roar_brown_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="783578843" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-20.R_818F3B66.wem</CachePath>
@@ -141,13 +149,13 @@
 					<ShortName>armor_10.R.cm-St.wav</ShortName>
 					<CachePath>SFX/armor_10.R.cm-St_818F3B66.wem</CachePath>
 				</File>
-				<File Id="841828226" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>EX_US_Ambience_Bat_Cave_Stalactite_Wet.wav</ShortName>
-					<CachePath>SFX/EX_US_Ambience_Bat_Cave_Stalactite_Wet_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="848935093" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R.wav</ShortName>
 					<CachePath>SFX/Audio Files/FNF_DSDZ_foley_footsteps_rocks_crunchy-08.R_818F3B66.wem</CachePath>
+				</File>
+				<File Id="879863981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BRS_Creature_Demon_Breaths_Drawn_Out_2.wav</ShortName>
+					<CachePath>SFX/BRS_Creature_Demon_Breaths_Drawn_Out_2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="881860423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Audio Files\FNF_DSDZ_foley_footsteps_rocks_crunchy-24.L.wav</ShortName>
@@ -197,32 +205,24 @@
 					<ShortName>armor_05.L.cm-St.wav</ShortName>
 					<CachePath>SFX/armor_05.L.cm-St_818F3B66.wem</CachePath>
 				</File>
-				<File Id="1063160985" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sample music 02.wav</ShortName>
-					<CachePath>SFX/sample music 02_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="1065758574" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sample music 01.wav</ShortName>
-					<CachePath>SFX/sample music 01_FBC78EF0.wem</CachePath>
-				</File>
 			</Media>
 			<Events>
 				<Event Id="278617630" Name="Play_Ambience" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="184500938"/>
-						<MediaRef Id="841828226"/>
+						<MediaRef Id="459935510"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="602787445" Name="Play_Dragon_Base" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="28555664"/>
-						<MediaRef Id="455375927"/>
+						<MediaRef Id="740376118"/>
+						<MediaRef Id="879863981"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4145153789" Name="Play_Music_Lvl1" DurationType="OneShot" DurationMin="43.004284" DurationMax="43.004284">
+				<Event Id="4145153789" Name="Play_Music_Lvl1" DurationType="OneShot" DurationMin="25.936" DurationMax="25.936">
 					<MediaRefs>
-						<MediaRef Id="1063160985"/>
-						<MediaRef Id="1065758574"/>
+						<MediaRef Id="164794117"/>
+						<MediaRef Id="684541785"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1368704831" Name="Play_Player_Footsep_R" DurationType="OneShot" DurationMin="5.3946466" DurationMax="5.425897">
@@ -345,5 +345,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{540D67B3-1C2E-C370-6CD8-C4EA77A06BEC}</FileHash>
+	<FileHash>{F53112AF-4FE3-3F64-CF18-F1052FFAF89C}</FileHash>
 </SoundBanksInfo>

@@ -35,7 +35,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -70,6 +70,13 @@
 										<MediaID ID="103681752"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="FF_HFFX_sfx_creature_roar_brown" ID="{9A0CCE65-01A3-4713-A773-B4B64F20A3EE}">
+									<Language>SFX</Language>
+									<AudioFile>FF_HFFX_sfx_creature_roar_brown.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="740376118"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -93,7 +100,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan" ID="{F8329C7E-559A-40E9-BF3C-76B0BFF8C3EB}" Platform="Linked"/>
+								<ActiveSource Name="FF_HFFX_sfx_creature_roar_brown" ID="{9A0CCE65-01A3-4713-A773-B4B64F20A3EE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="dragon idle breathing placeholder" ID="{62CC4232-AA66-4878-BC2A-C153628C12BC}" ShortID="574468775">
@@ -102,7 +109,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -123,6 +130,13 @@
 									<AudioFile>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite.wav</AudioFile>
 									<MediaIDList>
 										<MediaID ID="455375927"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="BRS_Creature_Demon_Breaths_Drawn_Out_2" ID="{7876712B-F94E-41DD-85C4-61EEE8931DD7}">
+									<Language>SFX</Language>
+									<AudioFile>BRS_Creature_Demon_Breaths_Drawn_Out_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="879863981"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -148,7 +162,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Breathe_Fire_Dinosaur_Creature_Burn_Attack_Flame_Ignite" ID="{F05C6C68-6DA9-4922-8F39-B4792A430F97}" Platform="Linked"/>
+								<ActiveSource Name="BRS_Creature_Demon_Breaths_Drawn_Out_2" ID="{7876712B-F94E-41DD-85C4-61EEE8931DD7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1485,6 +1499,13 @@
 										<MediaID ID="841828226"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="ESM_4_Haunted_Dungeon_Ambience_Nature_Game_Background_Atmosphere_World_Fantasy_Sci_fi_Ancient_Loopwav" ID="{6D70339F-FF5C-4886-BA78-D8C2D5FEDB38}">
+									<Language>SFX</Language>
+									<AudioFile>ESM_4_Haunted_Dungeon_Ambience_Nature_Game_Background_Atmosphere_World_Fantasy_Sci_fi_Ancient_Loopwav.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="459935510"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -1524,7 +1545,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="EX_US_Ambience_Bat_Cave_Stalactite_Wet" ID="{BF087E13-CA90-43CE-9D15-189EA4E33565}" Platform="Linked"/>
+								<ActiveSource Name="ESM_4_Haunted_Dungeon_Ambience_Nature_Game_Background_Atmosphere_World_Fantasy_Sci_fi_Ancient_Loopwav" ID="{6D70339F-FF5C-4886-BA78-D8C2D5FEDB38}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

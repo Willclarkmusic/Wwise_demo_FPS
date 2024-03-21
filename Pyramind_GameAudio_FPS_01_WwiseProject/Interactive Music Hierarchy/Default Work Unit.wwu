@@ -202,7 +202,6 @@
 							<Reference>
 								<Local>
 									<MultiSwitchEntry Name="" ID="{A9079612-A47D-448B-B89C-5A13974BD791}">
-										<ReferenceList/>
 										<ObjectLists>
 											<ObjectList Name="EntryPath">
 												<Reference>
@@ -292,7 +291,7 @@
 					<ChildrenList>
 						<MusicSegment Name="sample music 02" ID="{F7FA135A-E17D-4348-827F-D34653E549D0}" ShortID="773734094">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="28235.283446712"/>
+								<Property Name="EndPosition" Type="Real64" Value="41035.283446712"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -321,11 +320,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sample music 02" ID="{F3C8F2A1-CED3-4C5D-9D5B-4740761EAF38}">
+										<AudioFileSource Name="TheMarkFullMix_75bpm" ID="{3EB035CA-9092-45FF-B193-E10B534CF83B}">
 											<Language>SFX</Language>
-											<AudioFile>sample music 02.wav</AudioFile>
+											<AudioFile>TheMarkFullMix_75bpm.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1063160985"/>
+												<MediaID ID="164794117"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -338,13 +337,15 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="sample music 02" ID="{0E00A4DE-7E09-43EB-AC4D-60040DCC7146}">
+																		<MusicClip Name="TheMarkFullMix_75bpm" ID="{02277F76-FF7A-420A-BB83-A5E2BD159FC4}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="28235.283446712"/>
-																				<Property Name="FadeInDuration" Type="Real64" Value="4235.2925170068"/>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="4320.85398199684"/>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="3.60822483003176E-13"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="-3.60822483003176E-13"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="sample music 02" ID="{F3C8F2A1-CED3-4C5D-9D5B-4740761EAF38}"/>
+																			<AudioSourceRef Name="TheMarkFullMix_75bpm" ID="{3EB035CA-9092-45FF-B193-E10B534CF83B}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -369,7 +370,7 @@
 											<MusicCue Name="Exit Cue" ID="{864018F0-AC69-40ED-909F-8A8BC4B1AFFA}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="28235.283446712"/>
+													<Property Name="TimeMs" Type="Real64" Value="12786.4962222162"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -379,7 +380,7 @@
 						</MusicSegment>
 						<MusicSegment Name="sample music 01" ID="{EBEA6A4B-7F94-4198-89F7-DB85ECE976EA}" ShortID="6369882">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="22000"/>
+								<Property Name="EndPosition" Type="Real64" Value="27872.0818214485"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -408,11 +409,11 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sample music 01" ID="{64193BDA-4BA3-483C-8FC8-F64628B192DE}">
+										<AudioFileSource Name="MusicalEerieHigh_S08HO_150" ID="{2B61B01E-681D-4048-8A8D-FB67166102F7}">
 											<Language>SFX</Language>
-											<AudioFile>sample music 01.wav</AudioFile>
+											<AudioFile>MusicalEerieHigh_S08HO.150.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1065758574"/>
+												<MediaID ID="684541785"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -425,72 +426,13 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="sample music 01" ID="{D0191412-D4BA-4A06-9290-E0D0041D01EE}">
+																		<MusicClip Name="MusicalEerieHigh_S08HO_150" ID="{6257832B-DFD8-4CF6-B9A8-FEB029B670D6}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="14736.0818214485"/>
-																				<Property Name="FadeInDuration" Type="Real64" Value="1834.14211239743"/>
-																				<Property Name="FadeOutDuration" Type="Real64" Value="1784.57070395426"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="13136"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="sample music 01" ID="{64193BDA-4BA3-483C-8FC8-F64628B192DE}"/>
-																			<PropertyCurveList>
-																				<PropertyCurve PropertyName="Highpass">
-																					<Curve Name="" ID="{88FC3770-F372-4A76-995F-4223E1B9DF23}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="1"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>0</XPos>
-																								<YPos>0</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>14.73608</XPos>
-																								<YPos>0</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																				<PropertyCurve PropertyName="Lowpass">
-																					<Curve Name="" ID="{ACF01C1A-F4A5-4EE0-8DC8-5C9F45D709C4}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="1"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>0</XPos>
-																								<YPos>0</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>14.73608</XPos>
-																								<YPos>0</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																				<PropertyCurve PropertyName="Volume">
-																					<Curve Name="" ID="{1A33DD63-3085-4848-8F76-F5F5694959C0}">
-																						<PropertyList>
-																							<Property Name="Flags" Type="int32" Value="3"/>
-																						</PropertyList>
-																						<PointList>
-																							<Point>
-																								<XPos>0</XPos>
-																								<YPos>0</YPos>
-																								<Flags>5</Flags>
-																							</Point>
-																							<Point>
-																								<XPos>14.73608</XPos>
-																								<YPos>0</YPos>
-																								<Flags>37</Flags>
-																							</Point>
-																						</PointList>
-																					</Curve>
-																				</PropertyCurve>
-																			</PropertyCurveList>
+																			<AudioSourceRef Name="MusicalEerieHigh_S08HO_150" ID="{2B61B01E-681D-4048-8A8D-FB67166102F7}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -515,7 +457,7 @@
 											<MusicCue Name="Exit Cue" ID="{21836CCC-A7AF-4F8E-A120-F0A54CA68A85}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="14769.0022675737"/>
+													<Property Name="TimeMs" Type="Real64" Value="13132.8800896189"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
