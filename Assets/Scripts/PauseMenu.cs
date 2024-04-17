@@ -21,6 +21,7 @@ public class PauseMenu : MonoBehaviour
     private void Start()
     {
         pauseMenuUI.SetActive(false);
+        AkSoundEngine.SetState("GameState", "GamePlay");
         Time.timeScale = 1;
         GameIsPaused = false;
         _input = transform.root.GetComponent<StarterAssetsInputs>();
@@ -70,6 +71,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         GameIsPaused = false;
+        AkSoundEngine.SetState("GameState", "GamePlay");
         Debug.Log("unpaused");
     }
 
@@ -77,6 +79,7 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         GameIsPaused = true;
+        AkSoundEngine.SetState("GameState", "Menu");
         Debug.Log("paused");
     }
 

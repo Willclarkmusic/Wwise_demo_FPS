@@ -17,6 +17,14 @@
 						<State Name="Hallway1" ID="{DCB4A770-C776-4840-B013-98EC17904679}"/>
 						<State Name="Hallway2" ID="{630408BA-9F93-4B63-835C-B9C00850D585}"/>
 						<State Name="BossRoom" ID="{8364FC20-F1E9-4C1B-BEC9-637506F18B47}"/>
+						<State Name="BossDead" ID="{13B6B480-9C9A-4D07-8A2F-164555779743}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="GameState" ID="{05F4095C-6286-4F11-AC69-7FDEF8C247FE}">
+					<ChildrenList>
+						<State Name="None" ID="{77AA55C3-3F7F-47A3-A8D7-0461E762FCBE}"/>
+						<State Name="GamePlay" ID="{48A9B412-F133-4128-80BE-0B1243A9635A}"/>
+						<State Name="Menu" ID="{DE617728-7621-4AA8-A4B3-B1D71DC781E5}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

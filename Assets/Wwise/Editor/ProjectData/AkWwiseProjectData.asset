@@ -164,7 +164,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 88168620dc9ca6448a65d75efc21f9cf
     GuidInternal: 
-    m_lastTime: -8584931113143229938
+    m_lastTime: -8584882269226711325
     List:
     - name: DragonState
       guid: e081d58a55580d45adcd247d11ac2092
@@ -232,6 +232,72 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: GameState
+      guid: 5c09f4058662114fac697fdef8c247fe
+      id: 4091656514
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88168620dc9ca6448a65d75efc21f9cf
+      - ElementName: GameState
+        ObjectType: 9
+        guid: 5c09f4058662114fac697fdef8c247fe
+      Path: States\Default Work Unit\GameState
+      values:
+      - name: GamePlay
+        guid: 12b4a94833f1284180be0b1243a9635a
+        id: 89505537
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 5c09f4058662114fac697fdef8c247fe
+        - ElementName: GamePlay
+          ObjectType: 8
+          guid: 12b4a94833f1284180be0b1243a9635a
+      - name: Menu
+        guid: 287761de2176a84aa4b3b1d71dc781e5
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 5c09f4058662114fac697fdef8c247fe
+        - ElementName: Menu
+          ObjectType: 8
+          guid: 287761de2176a84aa4b3b1d71dc781e5
+      - name: None
+        guid: c355aa777f3fa347a8d70461e762fcbe
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 5c09f4058662114fac697fdef8c247fe
+        - ElementName: None
+          ObjectType: 8
+          guid: c355aa777f3fa347a8d70461e762fcbe
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: PlayerLocation
       guid: b4a075cc42221d4b9fa99a37c1d5ada2
       id: 1602053271
@@ -247,6 +313,22 @@ MonoBehaviour:
         guid: b4a075cc42221d4b9fa99a37c1d5ada2
       Path: States\Default Work Unit\PlayerLocation
       values:
+      - name: BossDead
+        guid: 80b4b6139a9c074d8a2f164555779743
+        id: 1057600524
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 88168620dc9ca6448a65d75efc21f9cf
+        - ElementName: PlayerLocation
+          ObjectType: 9
+          guid: b4a075cc42221d4b9fa99a37c1d5ada2
+        - ElementName: BossDead
+          ObjectType: 8
+          guid: 80b4b6139a9c074d8a2f164555779743
       - name: BossRoom
         guid: 20fc6483e9f11b4cbec9637506f18b47
         id: 3329270527

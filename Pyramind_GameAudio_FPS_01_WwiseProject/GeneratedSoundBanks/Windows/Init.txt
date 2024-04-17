@@ -1,16 +1,21 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1602053271	PlayerLocation			\Default Work Unit\PlayerLocation	
 	3420125775	DragonState			\Default Work Unit\DragonState	
+	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
 	71202558	Spawn	PlayerLocation			
 	748895195	None	PlayerLocation			
+	1057600524	BossDead	PlayerLocation			
 	3329270527	BossRoom	PlayerLocation			
 	4053971345	Hallway2	PlayerLocation			
 	4053971346	Hallway1	PlayerLocation			
 	748895195	None	DragonState			
 	1942738266	Rage	DragonState			
 	2799695215	Patrolling	DragonState			
+	89505537	GamePlay	GameState			
+	748895195	None	GameState			
+	2607556080	Menu	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	835198467	MasterBus			\Default Work Unit\MasterBus	

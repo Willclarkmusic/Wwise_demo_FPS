@@ -11,7 +11,7 @@ public class DragonBehavior : MonoBehaviour
     public Animator animator;
     private float damageTimer;
     private Dragon_Audio dragonAudio;
-    public bool _isDeadDragon;
+    private bool _isDeadDragon;
     private Collider _winBox;
     [SerializeField] GameObject WinBox;
     
@@ -40,6 +40,8 @@ public class DragonBehavior : MonoBehaviour
         if (HP <= 0)
         {
             animator.SetTrigger("die");
+            _isDeadDragon = true;
+            AkSoundEngine.SetState("PlayerLocation", "BossDead");
             GetComponent<Collider>().enabled = false;
             healthBarCanvas.SetActive(false);
             dragonAudio.playDeathDragonSound();

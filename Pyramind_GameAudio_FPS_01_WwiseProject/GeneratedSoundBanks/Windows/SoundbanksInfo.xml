@@ -9,66 +9,11 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{11FB2401-C78D-9CB4-6076-4E2F73E48D41}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{C64578C4-D21A-6D65-34D9-9E378E24FFAA}">
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
-			<Media>
-				<File Id="33818316" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Attack_2_Dinosaur_Creature_Roar_Growl_Moan_Groan_818F3B66.wem</CachePath>
-				</File>
-				<File Id="197189029" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Snore_Dinosaur_Creature_Inhale_Exhale_Breath_Airy.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Ancient_Dragon_Monster_Snore_Dinosaur_Creature_Inhale_Exhale_Breath_Airy_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="215510264" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_DGF_fx_foley_footstep_wood_large_creature_slow_walk_heavy_deep_12.wav</ShortName>
-					<CachePath>SFX/ESM_DGF_fx_foley_footstep_wood_large_creature_slow_walk_heavy_deep_12_818F3B66.wem</CachePath>
-				</File>
-				<File Id="379716629" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>ESM_One_Shot_Vocal_Balor_Monster_Death_2_Supernatural_Creature_Scream_Pain_Groan_Moan.wav</ShortName>
-					<CachePath>SFX/ESM_One_Shot_Vocal_Balor_Monster_Death_2_Supernatural_Creature_Scream_Pain_Groan_Moan_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="622702324" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FF_BP_110_perc_loop_creek_stomp_footsteps.wav</ShortName>
-					<CachePath>SFX/FF_BP_110_perc_loop_creek_stomp_footsteps_A571E874.wem</CachePath>
-				</File>
-				<File Id="925868787" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FF_HFFX_foley_footstep_creature_teal.wav</ShortName>
-					<CachePath>SFX/FF_HFFX_foley_footstep_creature_teal_818F3B66.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="3988252362" Name="Play_Dragon_Attack" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8207291" DurationMax="1.8207291">
-					<MediaRefs>
-						<MediaRef Id="33818316"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1262362028" Name="Play_DragonBase" MaxAttenuation="50" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="197189029"/>
-						<MediaRef Id="379716629"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1599135344" Name="Play_FootstepsPlayer" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.2529971" DurationMax="0.39768353">
-					<MediaRefs>
-						<MediaRef Id="622702324"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1580937561" Name="Play_HeavyFootStep" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.67010415" DurationMax="0.67010415">
-					<MediaRefs>
-						<MediaRef Id="215510264"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4260766568" Name="Play_LightFootstep" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.4701587" DurationMax="1.4701587">
-					<MediaRefs>
-						<MediaRef Id="925868787"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3009817362" Name="Stop_FootstepsPlayer" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4E42278E-6B3F-BEDB-269E-4F86D93F4E43}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E99E6658-C308-3F8F-A646-981ED536A17C}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -90,6 +35,7 @@
 					<States>
 						<State Id="71202558" Name="Spawn"/>
 						<State Id="748895195" Name="None"/>
+						<State Id="1057600524" Name="BossDead"/>
 						<State Id="3329270527" Name="BossRoom"/>
 						<State Id="4053971345" Name="Hallway2"/>
 						<State Id="4053971346" Name="Hallway1"/>
@@ -100,6 +46,13 @@
 						<State Id="748895195" Name="None"/>
 						<State Id="1942738266" Name="Rage"/>
 						<State Id="2799695215" Name="Patrolling"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState">
+					<States>
+						<State Id="89505537" Name="GamePlay"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2607556080" Name="Menu"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -113,5 +66,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B49DD257-BCFA-C472-99FB-86AFB4A88D6A}</FileHash>
+	<FileHash>{973DF8E2-1FAF-2482-F146-0118BB653564}</FileHash>
 </SoundBanksInfo>
